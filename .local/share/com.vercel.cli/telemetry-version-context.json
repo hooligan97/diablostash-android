@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "installations": {
+    "d73545d8d1e48b21f3fe466e09ef4fa6c3590cbb08c4684aed1cc8a68335d1f2": {
+      "collectedAt": 1794537562980,
+      "context": {
+        "status": "resolved",
+        "source": "detected",
+        "runtime": "node",
+        "manager": "package-manager",
+        "packageManager": "unknown",
+        "packageManagerAssumed": false,
+        "global": "unknown"
+      }
+    },
+    "764b1df4c04da2234cb5d935d7232a51fc3a4bf7071fcda4bc59f82a1c215891": {
+      "collectedAt": 1794536125072,
+      "context": {
+        "status": "resolved",
+        "source": "detected",
+        "runtime": "node",
+        "manager": "package-manager",
+        "packageManager": "unknown",
+        "packageManagerAssumed": false,
+        "global": "unknown"
+      }
+    }
+  }
+}

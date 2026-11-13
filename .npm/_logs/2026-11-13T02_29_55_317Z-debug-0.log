@@ -1,0 +1,2052 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@12.2.2
+2 info using node@v24.22.3
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm i @vercel/analytics
+7 verbose argv "i" "@vercel/analytics"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-11-13T02_29_55_317Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-11-13T02_29_55_317Z-debug-0.log
+10 silly logfile start cleaning logs, removing 2 files
+11 warn install-scripts .npmrc allow-scripts setting is being ignored because package.json declares its own allowScripts field
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @vercel/analytics@*
+16 silly packumentCache full:https://registry.npmjs.org/@vercel%2fanalytics cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@vercel%2fanalytics 1073ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@vercel%2fanalytics set size:undefined disposed:false
+19 silly placeDep ROOT @vercel/analytics@2.0.1 OK for:  want: *
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@mrmlnc/readdir-enhanced': [ '2.2.1' ],
+21 silly audit   '@nodelib/fs.stat': [ '1.1.3' ],
+21 silly audit   acorn: [ '1.2.2', '7.4.1', '5.7.4' ],
+21 silly audit   'acorn-node': [ '1.8.2' ],
+21 silly audit   'acorn-walk': [ '7.2.0' ],
+21 silly audit   ajv: [ '6.15.0' ],
+21 silly audit   aliasify: [ '1.9.0' ],
+21 silly audit   'align-text': [ '0.1.4' ],
+21 silly audit   amdefine: [ '1.0.1' ],
+21 silly audit   'ansi-regex': [ '2.1.1' ],
+21 silly audit   'ansi-styles': [ '2.2.1' ],
+21 silly audit   archiver: [ '3.1.1' ],
+21 silly audit   'archiver-utils': [ '2.1.0' ],
+21 silly audit   'normalize-path': [ '3.0.0', '2.1.1' ],
+21 silly audit   'readable-stream': [ '3.6.2', '2.0.6', '2.3.8' ],
+21 silly audit   string_decoder: [ '1.3.0', '1.1.1', '0.10.31' ],
+21 silly audit   argparse: [ '1.0.10' ],
+21 silly audit   'arr-diff': [ '2.0.0', '4.0.0' ],
+21 silly audit   'arr-flatten': [ '1.1.0' ],
+21 silly audit   'arr-union': [ '3.1.0' ],
+21 silly audit   'array-unique': [ '0.2.1', '0.3.2' ],
+21 silly audit   asn1: [ '0.2.6' ],
+21 silly audit   'asn1.js': [ '4.10.1' ],
+21 silly audit   'bn.js': [ '4.12.5', '5.2.5' ],
+21 silly audit   assert: [ '1.5.1' ],
+21 silly audit   'assert-plus': [ '1.0.0' ],
+21 silly audit   'assign-symbols': [ '1.0.0' ],
+21 silly audit   async: [ '2.6.4', '0.2.10' ],
+21 silly audit   asynckit: [ '0.4.0' ],
+21 silly audit   atob: [ '2.1.2' ],
+21 silly audit   'available-typed-arrays': [ '1.0.7' ],
+21 silly audit   'aws-sign2': [ '0.7.0' ],
+21 silly audit   aws4: [ '1.13.2' ],
+21 silly audit   'balanced-match': [ '1.0.2' ],
+21 silly audit   base: [ '0.11.2' ],
+21 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+21 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+21 silly audit   'base64-js': [ '1.5.1' ],
+21 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+21 silly audit   bl: [ '4.1.0' ],
+21 silly audit   buffer: [ '5.7.1', '4.9.2' ],
+21 silly audit   bluebird: [ '3.7.2' ],
+21 silly audit   'brace-expansion': [ '1.1.21' ],
+21 silly audit   braces: [ '1.8.5', '2.3.2', '3.0.3' ],
+21 silly audit   brorand: [ '1.1.0' ],
+21 silly audit   'browser-pack': [ '6.1.0' ],
+21 silly audit   'browser-resolve': [ '1.11.3' ],
+21 silly audit   resolve: [ '1.1.7', '1.22.13' ],
+21 silly audit   browserify: [ '13.3.0' ],
+21 silly audit   'browserify-aes': [ '1.2.0' ],
+21 silly audit   'browserify-cipher': [ '1.0.1' ],
+21 silly audit   'browserify-des': [ '1.0.2' ],
+21 silly audit   'browserify-rsa': [ '4.1.1' ],
+21 silly audit   'browserify-sign': [ '4.2.6' ],
+21 silly audit   'browserify-transform-tools': [ '1.5.3' ],
+21 silly audit   'browserify-zlib': [ '0.1.4' ],
+21 silly audit   'buffer-crc32': [ '0.2.13' ],
+21 silly audit   'buffer-from': [ '1.1.2' ],
+21 silly audit   'buffer-xor': [ '1.0.3' ],
+21 silly audit   'builtin-status-codes': [ '3.0.0' ],
+21 silly audit   'cache-base': [ '1.0.1' ],
+21 silly audit   'cached-path-relative': [ '1.1.0' ],
+21 silly audit   'call-bind': [ '1.0.9' ],
+21 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+21 silly audit   'call-bound': [ '1.0.4' ],
+21 silly audit   'call-me-maybe': [ '1.0.2' ],
+21 silly audit   camelcase: [ '1.2.1' ],
+21 silly audit   caseless: [ '0.12.0' ],
+21 silly audit   'center-align': [ '0.1.3' ],
+21 silly audit   chalk: [ '1.1.3' ],
+21 silly audit   'cipher-base': [ '1.0.7' ],
+21 silly audit   'class-utils': [ '0.3.6' ],
+21 silly audit   'is-descriptor': [ '0.1.8', '1.0.4' ],
+21 silly audit   cliui: [ '2.1.0' ],
+21 silly audit   wordwrap: [ '0.0.2', '0.0.3', '1.0.0' ],
+21 silly audit   coa: [ '1.0.4' ],
+21 silly audit   'collection-visit': [ '1.0.0' ],
+21 silly audit   'color-convert': [ '0.5.3' ],
+21 silly audit   'color-diff': [ '1.4.0' ],
+21 silly audit   'combine-source-map': [ '0.8.0' ],
+21 silly audit   'combined-stream': [ '1.0.8' ],
+21 silly audit   commander: [ '2.20.3' ],
+21 silly audit   'component-emitter': [ '1.3.1' ],
+21 silly audit   'compress-commons': [ '2.1.1' ],
+21 silly audit   'concat-map': [ '0.0.1' ],
+21 silly audit   'concat-stream': [ '1.5.2', '1.6.2' ],
+21 silly audit   'process-nextick-args': [ '1.0.7', '2.0.1' ],
+21 silly audit   'console-browserify': [ '1.2.0' ],
+21 silly audit   'constants-browserify': [ '1.0.0' ],
+21 silly audit   'convert-source-map': [ '1.1.3' ],
+21 silly audit   'copy-descriptor': [ '0.1.1' ],
+21 silly audit   'core-util-is': [ '1.0.3', '1.0.2' ],
+21 silly audit   crc: [ '3.8.0' ],
+21 silly audit   'crc32-stream': [ '3.0.1' ],
+21 silly audit   'create-ecdh': [ '4.0.4' ],
+21 silly audit   'create-hash': [ '1.2.0' ],
+21 silly audit   'create-hmac': [ '1.1.7' ],
+21 silly audit   'crypto-browserify': [ '3.12.1' ],
+21 silly audit   css: [ '2.2.4' ],
+21 silly audit   'source-map': [ '0.6.1', '0.1.43', '0.5.7' ],
+21 silly audit   'dash-ast': [ '1.0.0' ],
+21 silly audit   dashdash: [ '1.14.1' ],
+21 silly audit   debug: [ '2.6.9' ],
+21 silly audit   decamelize: [ '1.2.0' ],
+21 silly audit   'decode-uri-component': [ '0.2.2' ],
+21 silly audit   'define-data-property': [ '1.1.4' ],
+21 silly audit   'define-properties': [ '1.2.1' ],
+21 silly audit   defined: [ '1.0.1' ],
+21 silly audit   'delayed-stream': [ '1.0.0' ],
+21 silly audit   'deps-sort': [ '2.0.1' ],
+21 silly audit   'des.js': [ '1.1.0' ],
+21 silly audit   detective: [ '4.7.1' ],
+21 silly audit   'diffie-hellman': [ '5.0.3' ],
+21 silly audit   'domain-browser': [ '1.1.7' ],
+21 silly audit   'dunder-proto': [ '1.0.1' ],
+21 silly audit   duplexer2: [ '0.1.4' ],
+21 silly audit   'ecc-jsbn': [ '0.1.2' ],
+21 silly audit   elliptic: [ '6.6.1' ],
+21 silly audit   encoding: [ '0.1.13' ],
+21 silly audit   'end-of-stream': [ '1.4.5' ],
+21 silly audit   errno: [ '0.1.8' ],
+21 silly audit   'es-define-property': [ '1.0.1' ],
+21 silly audit   'es-errors': [ '1.3.0' ],
+21 silly audit   'es-object-atoms': [ '1.1.2' ],
+21 silly audit   'escape-string-regexp': [ '1.0.5' ],
+21 silly audit   esprima: [ '4.0.1' ],
+21 silly audit   events: [ '1.1.1' ],
+21 silly audit   evp_bytestokey: [ '1.0.3' ],
+21 silly audit   'expand-brackets': [ '0.1.5', '2.1.4' ],
+21 silly audit   'expand-range': [ '1.8.2' ],
+21 silly audit   extend: [ '1.3.0', '3.0.2' ],
+21 silly audit   'extend-shallow': [ '3.0.2', '2.0.1' ],
+21 silly audit   'is-extendable': [ '1.0.1', '0.1.1' ],
+21 silly audit   extglob: [ '0.3.2', '2.0.4' ],
+21 silly audit   'is-extglob': [ '1.0.0', '2.1.1' ],
+21 silly audit   extsprintf: [ '1.3.0' ],
+21 silly audit   falafel: [ '1.2.0' ],
+21 silly audit   isarray: [ '0.0.1', '1.0.0', '2.0.5' ],
+21 silly audit   'fast-deep-equal': [ '3.1.3' ],
+21 silly audit   'fast-glob': [ '2.2.7' ],
+21 silly audit   'fill-range': [ '4.0.0', '2.2.4', '7.1.1' ],
+21 silly audit   'is-number': [ '3.0.0', '7.0.0', '2.1.0', '4.0.0' ],
+21 silly audit   'kind-of': [ '3.2.2', '6.0.3', '4.0.0' ],
+21 silly audit   micromatch: [ '3.1.10', '4.0.8', '2.3.11' ],
+21 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+21 silly audit   'fast-safe-stringify': [ '2.1.1' ],
+21 silly audit   'filename-regex': [ '2.0.1' ],
+21 silly audit   'for-each': [ '0.3.5' ],
+21 silly audit   'for-in': [ '1.0.2' ],
+21 silly audit   'for-own': [ '0.1.5' ],
+21 silly audit   foreach: [ '2.0.6' ],
+21 silly audit   'forever-agent': [ '0.6.1' ],
+21 silly audit   'form-data': [ '2.3.3' ],
+21 silly audit   'fragment-cache': [ '0.2.1' ],
+21 silly audit   'fs-constants': [ '1.0.0' ],
+21 silly audit   'fs-extra': [ '0.30.0', '5.0.0', '8.1.0' ],
+21 silly audit   'fs.realpath': [ '1.0.0' ],
+21 silly audit   'function-bind': [ '1.1.2' ],
+21 silly audit   gemini: [ '7.5.2' ],
+21 silly audit   'gemini-configparser': [ '1.4.2' ],
+21 silly audit   'gemini-core': [ '3.8.3' ],
+21 silly audit   'to-regex-range': [ '5.0.1', '2.1.1' ],
+21 silly audit   'gemini-coverage': [ '2.0.0' ],
+21 silly audit   handlebars: [ '1.3.0', '4.7.10' ],
+21 silly audit   jsonfile: [ '4.0.0', '2.4.0' ],
+21 silly audit   'uglify-js': [ '2.3.6', '3.19.3', '2.8.29' ],
+21 silly audit   'get-assigned-identifiers': [ '1.2.0' ],
+21 silly audit   'get-intrinsic': [ '1.3.0' ],
+21 silly audit   'get-proto': [ '1.0.1' ],
+21 silly audit   'get-value': [ '2.0.6' ],
+21 silly audit   getpass: [ '0.1.7' ],
+21 silly audit   glob: [ '7.2.3' ],
+21 silly audit   'glob-base': [ '0.3.0' ],
+21 silly audit   'glob-parent': [ '2.0.0', '3.1.0' ],
+21 silly audit   'is-glob': [ '2.0.1', '3.1.0', '4.0.3' ],
+21 silly audit   'glob-extra': [ '4.0.2' ],
+21 silly audit   'glob-to-regexp': [ '0.3.0' ],
+21 silly audit   gopd: [ '1.2.0' ],
+21 silly audit   'graceful-fs': [ '4.2.11' ],
+21 silly audit   'har-schema': [ '2.0.0' ],
+21 silly audit   'har-validator': [ '5.1.5' ],
+21 silly audit   has: [ '1.0.4' ],
+21 silly audit   'has-ansi': [ '2.0.0' ],
+21 silly audit   'has-property-descriptors': [ '1.0.2' ],
+21 silly audit   'has-symbols': [ '1.1.0' ],
+21 silly audit   'has-tostringtag': [ '1.0.2' ],
+21 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+21 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+21 silly audit   'hash-base': [ '3.0.5', '3.1.2' ],
+21 silly audit   'hash.js': [ '1.1.7' ],
+21 silly audit   hasown: [ '2.0.4' ],
+21 silly audit   'hmac-drbg': [ '1.0.1' ],
+21 silly audit   htmlescape: [ '1.1.1' ],
+21 silly audit   'http-signature': [ '1.2.0' ],
+21 silly audit   'https-browserify': [ '0.0.1' ],
+21 silly audit   'iconv-lite': [ '0.6.3' ],
+21 silly audit   ieee754: [ '1.2.1' ],
+21 silly audit   indexof: [ '0.0.1' ],
+21 silly audit   inflight: [ '1.0.6' ],
+21 silly audit   inherit: [ '2.2.7' ],
+21 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+21 silly audit   'inline-source-map': [ '0.6.3' ],
+21 silly audit   'insert-module-globals': [ '7.2.1' ],
+21 silly audit   typedarray: [ '0.0.6', '0.0.7' ],
+21 silly audit   'is-accessor-descriptor': [ '1.0.2' ],
+21 silly audit   'is-buffer': [ '1.1.6' ],
+21 silly audit   'is-callable': [ '1.2.7' ],
+21 silly audit   'is-core-module': [ '2.17.0' ],
+21 silly audit   'is-data-descriptor': [ '1.0.1' ],
+21 silly audit   'is-dotfile': [ '1.0.3' ],
+21 silly audit   'is-equal-shallow': [ '0.1.3' ],
+21 silly audit   'is-plain-object': [ '2.0.4' ],
+21 silly audit   'is-posix-bracket': [ '0.1.1' ],
+21 silly audit   'is-primitive': [ '2.0.0' ],
+21 silly audit   'is-stream': [ '1.1.0' ],
+21 silly audit   'is-typed-array': [ '1.1.15' ],
+21 silly audit   'is-typedarray': [ '1.0.0' ],
+21 silly audit   'is-windows': [ '1.0.2' ],
+21 silly audit   isstream: [ '0.1.2' ],
+21 silly audit   'js-graph-algorithms': [ '1.0.18' ],
+21 silly audit   'js-yaml': [ '3.15.2' ],
+21 silly audit   jsbn: [ '0.1.1' ],
+21 silly audit   'json-schema': [ '0.4.0' ],
+21 silly audit   'json-schema-traverse': [ '0.4.1' ],
+21 silly audit   'json-stable-stringify': [ '0.0.1' ],
+21 silly audit   'json-stringify-safe': [ '5.0.1' ],
+21 silly audit   jsonify: [ '0.0.1' ],
+21 silly audit   jsonparse: [ '1.3.1' ],
+21 silly audit   JSONStream: [ '1.3.5' ],
+21 silly audit   jsprim: [ '1.4.2' ],
+21 silly audit   klaw: [ '1.3.1' ],
+21 silly audit   'labeled-stream-splicer': [ '2.0.2' ],
+21 silly audit   'lazy-cache': [ '1.0.4' ],
+21 silly audit   lazystream: [ '1.0.1' ],
+21 silly audit   lodash: [ '4.18.1' ],
+21 silly audit   'lodash.defaults': [ '4.2.0' ],
+21 silly audit   'lodash.difference': [ '4.5.0' ],
+21 silly audit   'lodash.flatten': [ '4.4.0' ],
+21 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+21 silly audit   'lodash.memoize': [ '3.0.4' ],
+21 silly audit   'lodash.union': [ '4.6.0' ],
+21 silly audit   longest: [ '1.0.1' ],
+21 silly audit   'looks-same': [ '7.3.0' ],
+21 silly audit   'map-cache': [ '0.2.2' ],
+21 silly audit   'map-visit': [ '1.0.0' ],
+21 silly audit   'math-intrinsics': [ '1.1.0' ],
+21 silly audit   'math-random': [ '1.0.4' ],
+21 silly audit   'md5.js': [ '1.3.5' ],
+21 silly audit   merge2: [ '1.4.1' ],
+21 silly audit   'miller-rabin': [ '4.0.1' ],
+21 silly audit   'mime-db': [ '1.52.0' ],
+21 silly audit   'mime-types': [ '2.1.35' ],
+21 silly audit   'minimalistic-assert': [ '1.0.1' ],
+21 silly audit   'minimalistic-crypto-utils': [ '1.0.1' ],
+21 silly audit   minimatch: [ '3.1.5' ],
+21 silly audit   minimist: [ '1.2.8' ],
+21 silly audit   'mixin-deep': [ '1.3.2' ],
+21 silly audit   mkdirp: [ '0.5.6' ],
+21 silly audit   'module-deps': [ '4.1.1' ],
+21 silly audit   ms: [ '2.0.0' ],
+21 silly audit   nan: [ '2.30.0' ],
+21 silly audit   nanomatch: [ '1.2.13' ],
+21 silly audit   'neo-async': [ '2.6.2' ],
+21 silly audit   'nested-error-stacks': [ '2.1.1' ],
+21 silly audit   'node-fetch': [ '1.7.3' ],
+21 silly audit   'oauth-sign': [ '0.9.0' ],
+21 silly audit   'object-copy': [ '0.1.0' ],
+21 silly audit   'object-inspect': [ '1.13.4' ],
+21 silly audit   'object-keys': [ '1.1.1' ],
+21 silly audit   'object-visit': [ '1.0.1' ],
+21 silly audit   'object.assign': [ '4.1.7' ],
+21 silly audit   'object.omit': [ '2.0.1' ],
+21 silly audit   'object.pick': [ '1.3.0' ],
+21 silly audit   once: [ '1.4.0' ],
+21 silly audit   optimist: [ '0.3.7' ],
+21 silly audit   'os-browserify': [ '0.1.2' ],
+21 silly audit   pako: [ '0.2.9' ],
+21 silly audit   parents: [ '1.0.1' ],
+21 silly audit   'parse-asn1': [ '5.1.10' ],
+21 silly audit   'parse-color': [ '1.0.0' ],
+21 silly audit   'parse-glob': [ '3.0.4' ],
+21 silly audit   pascalcase: [ '0.1.1' ],
+21 silly audit   'path-browserify': [ '0.0.1' ],
+21 silly audit   'path-dirname': [ '1.0.2' ],
+21 silly audit   'path-is-absolute': [ '1.0.1' ],
+21 silly audit   'path-parse': [ '1.0.7' ],
+21 silly audit   'path-platform': [ '0.11.15' ],
+21 silly audit   pbkdf2: [ '3.1.7' ],
+21 silly audit   'performance-now': [ '2.1.0' ],
+21 silly audit   picomatch: [ '2.3.2' ],
+21 silly audit   'plugins-loader': [ '1.3.4' ],
+21 silly audit   'png-img': [ '2.3.0' ],
+21 silly audit   pngjs: [ '6.0.0' ],
+21 silly audit   'posix-character-classes': [ '0.1.1' ],
+21 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+21 silly audit   preserve: [ '0.2.0' ],
+21 silly audit   process: [ '0.11.10' ],
+21 silly audit   prr: [ '1.0.1' ],
+21 silly audit   psl: [ '1.15.0' ],
+21 silly audit   punycode: [ '2.3.1', '1.4.1' ],
+21 silly audit   'public-encrypt': [ '4.0.3' ],
+21 silly audit   q: [ '1.5.1' ],
+21 silly audit   qs: [ '6.16.1', '6.5.5' ],
+21 silly audit   'querystring-es3': [ '0.2.1' ],
+21 silly audit   randomatic: [ '3.1.1' ],
+21 silly audit   randombytes: [ '2.1.0' ],
+21 silly audit   randomfill: [ '1.0.4' ],
+21 silly audit   'read-only-stream': [ '2.0.0' ],
+21 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+21 silly audit   'regex-cache': [ '0.4.4' ],
+21 silly audit   'regex-not': [ '1.0.2' ],
+21 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+21 silly audit   'repeat-element': [ '1.1.4' ],
+21 silly audit   'repeat-string': [ '1.6.1' ],
+21 silly audit   request: [ '2.88.0' ],
+21 silly audit   'resolve-url': [ '0.2.1' ],
+21 silly audit   ret: [ '0.1.15' ],
+21 silly audit   'right-align': [ '0.1.3' ],
+21 silly audit   rimraf: [ '2.7.1', '2.6.3' ],
+21 silly audit   ripemd160: [ '2.0.3' ],
+21 silly audit   'safe-regex': [ '1.1.0' ],
+21 silly audit   'safer-buffer': [ '2.1.2' ],
+21 silly audit   'set-function-length': [ '1.2.2' ],
+21 silly audit   'set-value': [ '2.0.1' ],
+21 silly audit   'sha.js': [ '2.4.12' ],
+21 silly audit   shasum: [ '1.0.2' ],
+21 silly audit   'shasum-object': [ '1.0.1' ],
+21 silly audit   'shell-quote': [ '1.12.0' ],
+21 silly audit   'side-channel': [ '1.1.1' ],
+21 silly audit   'side-channel-list': [ '1.0.1' ],
+21 silly audit   'side-channel-map': [ '1.0.1' ],
+21 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+21 silly audit   'simple-concat': [ '1.0.1' ],
+21 silly audit   sizzle: [ '2.3.10' ],
+21 silly audit   snapdragon: [ '0.8.2' ],
+21 silly audit   'snapdragon-node': [ '2.1.1' ],
+21 silly audit   'snapdragon-util': [ '3.0.1' ],
+21 silly audit   'source-map-resolve': [ '0.5.3' ],
+21 silly audit   'source-map-url': [ '0.4.1' ],
+21 silly audit   'split-string': [ '3.1.0' ],
+21 silly audit   'sprintf-js': [ '1.0.3' ],
+21 silly audit   sshpk: [ '1.18.0' ],
+21 silly audit   'static-extend': [ '0.1.2' ],
+21 silly audit   'stream-browserify': [ '2.0.2' ],
+21 silly audit   'stream-combiner2': [ '1.1.1' ],
+21 silly audit   'stream-http': [ '2.8.3' ],
+21 silly audit   'stream-splicer': [ '2.0.1' ],
+21 silly audit   'strip-ansi': [ '3.0.1' ],
+21 silly audit   striptags: [ '2.1.1' ],
+21 silly audit   subarg: [ '1.0.0' ],
+21 silly audit   'supports-color': [ '2.0.0' ],
+21 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+21 silly audit   'syntax-error': [ '1.4.0' ],
+21 silly audit   'tar-stream': [ '2.2.0' ],
+21 silly audit   temp: [ '0.8.4' ],
+21 silly audit   through: [ '2.3.8' ],
+21 silly audit   through2: [ '2.0.5' ],
+21 silly audit   'timers-browserify': [ '1.4.2' ],
+21 silly audit   'to-arraybuffer': [ '1.0.1' ],
+21 silly audit   'to-buffer': [ '1.2.2' ],
+21 silly audit   'to-object-path': [ '0.3.0' ],
+21 silly audit   'to-regex': [ '3.0.2' ],
+21 silly audit   'tough-cookie': [ '2.4.3' ],
+21 silly audit   'tty-browserify': [ '0.0.1' ],
+21 silly audit   'tunnel-agent': [ '0.6.0' ],
+21 silly audit   tweetnacl: [ '0.14.5' ],
+21 silly audit   'typed-array-buffer': [ '1.0.3' ],
+21 silly audit   'uglify-to-browserify': [ '1.0.2' ],
+21 silly audit   uglifyify: [ '3.0.4' ],
+21 silly audit   umd: [ '3.0.3' ],
+21 silly audit   'undeclared-identifiers': [ '1.1.3' ],
+21 silly audit   'union-value': [ '1.0.1' ],
+21 silly audit   universalify: [ '0.1.2' ],
+21 silly audit   'unset-value': [ '1.0.0' ],
+21 silly audit   'uri-js': [ '4.4.1' ],
+21 silly audit   urix: [ '0.1.0' ],
+21 silly audit   url: [ '0.11.4' ],
+21 silly audit   use: [ '3.1.1' ],
+21 silly audit   util: [ '0.10.4' ],
+21 silly audit   'util-deprecate': [ '1.0.2' ],
+21 silly audit   uuid: [ '3.4.0' ],
+21 silly audit   vargs: [ '0.1.0' ],
+21 silly audit   verror: [ '1.10.0' ],
+21 silly audit   'vm-browserify': [ '0.0.4' ],
+21 silly audit   wd: [ '1.14.0' ],
+21 silly audit   'which-typed-array': [ '1.1.24' ],
+21 silly audit   'window-size': [ '0.1.0' ],
+21 silly audit   'worker-farm': [ '1.7.0' ],
+21 silly audit   wrappy: [ '1.0.2' ],
+21 silly audit   xtend: [ '4.0.2' ],
+21 silly audit   yallist: [ '3.1.1' ],
+21 silly audit   yargs: [ '3.10.0' ],
+21 silly audit   'zip-stream': [ '2.1.3' ],
+21 silly audit   '@vercel/analytics': [ '2.0.1' ]
+21 silly audit }
+22 http cache @vercel/analytics@https://registry.npmjs.org/@vercel/analytics/-/analytics-2.0.1.tgz 0ms (cache hit)
+23 http cache zip-stream@https://registry.npmjs.org/zip-stream/-/zip-stream-2.1.3.tgz 0ms (cache hit)
+24 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz 0ms (cache hit)
+25 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz 0ms (cache hit)
+26 http cache xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 1ms (cache hit)
+27 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+28 http cache worker-farm@https://registry.npmjs.org/worker-farm/-/worker-farm-1.7.0.tgz 0ms (cache hit)
+29 http cache wordwrap@https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz 0ms (cache hit)
+30 http cache window-size@https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz 0ms (cache hit)
+31 http cache which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.24.tgz 0ms (cache hit)
+32 http cache wd@https://registry.npmjs.org/wd/-/wd-1.14.0.tgz 0ms (cache hit)
+33 http cache vm-browserify@https://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.4.tgz 0ms (cache hit)
+34 http cache verror@https://registry.npmjs.org/verror/-/verror-1.10.0.tgz 0ms (cache hit)
+35 http cache vargs@https://registry.npmjs.org/vargs/-/vargs-0.1.0.tgz 0ms (cache hit)
+36 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz 0ms (cache hit)
+37 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+38 http cache util@https://registry.npmjs.org/util/-/util-0.10.4.tgz 0ms (cache hit)
+39 http cache use@https://registry.npmjs.org/use/-/use-3.1.1.tgz 0ms (cache hit)
+40 http cache url@https://registry.npmjs.org/url/-/url-0.11.4.tgz 0ms (cache hit)
+41 http cache urix@https://registry.npmjs.org/urix/-/urix-0.1.0.tgz 0ms (cache hit)
+42 http cache uri-js@https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 0ms (cache hit)
+43 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz 0ms (cache hit)
+44 http cache union-value@https://registry.npmjs.org/union-value/-/union-value-1.0.1.tgz 0ms (cache hit)
+45 http cache unset-value@https://registry.npmjs.org/unset-value/-/unset-value-1.0.0.tgz 0ms (cache hit)
+46 http cache undeclared-identifiers@https://registry.npmjs.org/undeclared-identifiers/-/undeclared-identifiers-1.1.3.tgz 0ms (cache hit)
+47 http cache umd@https://registry.npmjs.org/umd/-/umd-3.0.3.tgz 0ms (cache hit)
+48 http cache uglify-to-browserify@https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz 0ms (cache hit)
+49 http cache uglifyify@https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.4.tgz 0ms (cache hit)
+50 http cache uglify-js@https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz 0ms (cache hit)
+51 http cache typedarray@https://registry.npmjs.org/typedarray/-/typedarray-0.0.7.tgz 0ms (cache hit)
+52 http cache typed-array-buffer@https://registry.npmjs.org/typed-array-buffer/-/typed-array-buffer-1.0.3.tgz 0ms (cache hit)
+53 http cache tweetnacl@https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz 0ms (cache hit)
+54 http cache tunnel-agent@https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 0ms (cache hit)
+55 http cache tty-browserify@https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.1.tgz 0ms (cache hit)
+56 http cache tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz 0ms (cache hit)
+57 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-2.1.1.tgz 0ms (cache hit)
+58 http cache to-regex@https://registry.npmjs.org/to-regex/-/to-regex-3.0.2.tgz 0ms (cache hit)
+59 http cache to-object-path@https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz 0ms (cache hit)
+60 http cache to-buffer@https://registry.npmjs.org/to-buffer/-/to-buffer-1.2.2.tgz 0ms (cache hit)
+61 http cache to-arraybuffer@https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz 0ms (cache hit)
+62 http cache timers-browserify@https://registry.npmjs.org/timers-browserify/-/timers-browserify-1.4.2.tgz 0ms (cache hit)
+63 http cache through2@https://registry.npmjs.org/through2/-/through2-2.0.5.tgz 0ms (cache hit)
+64 http cache through@https://registry.npmjs.org/through/-/through-2.3.8.tgz 0ms (cache hit)
+65 http cache temp@https://registry.npmjs.org/temp/-/temp-0.8.4.tgz 0ms (cache hit)
+66 http cache tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 0ms (cache hit)
+67 http cache syntax-error@https://registry.npmjs.org/syntax-error/-/syntax-error-1.4.0.tgz 0ms (cache hit)
+68 http cache supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 0ms (cache hit)
+69 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz 0ms (cache hit)
+70 http cache subarg@https://registry.npmjs.org/subarg/-/subarg-1.0.0.tgz 0ms (cache hit)
+71 http cache striptags@https://registry.npmjs.org/striptags/-/striptags-2.1.1.tgz 0ms (cache hit)
+72 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 0ms (cache hit)
+73 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz 0ms (cache hit)
+74 http cache stream-splicer@https://registry.npmjs.org/stream-splicer/-/stream-splicer-2.0.1.tgz 0ms (cache hit)
+75 http cache stream-http@https://registry.npmjs.org/stream-http/-/stream-http-2.8.3.tgz 0ms (cache hit)
+76 http cache stream-combiner2@https://registry.npmjs.org/stream-combiner2/-/stream-combiner2-1.1.1.tgz 0ms (cache hit)
+77 http cache stream-browserify@https://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.2.tgz 0ms (cache hit)
+78 http cache static-extend@https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz 0ms (cache hit)
+79 http cache sshpk@https://registry.npmjs.org/sshpk/-/sshpk-1.18.0.tgz 0ms (cache hit)
+80 http cache sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 0ms (cache hit)
+81 http cache split-string@https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz 0ms (cache hit)
+82 http cache source-map-url@https://registry.npmjs.org/source-map-url/-/source-map-url-0.4.1.tgz 0ms (cache hit)
+83 http cache source-map-resolve@https://registry.npmjs.org/source-map-resolve/-/source-map-resolve-0.5.3.tgz 0ms (cache hit)
+84 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz 0ms (cache hit)
+85 http cache snapdragon-node@https://registry.npmjs.org/snapdragon-node/-/snapdragon-node-2.1.1.tgz 0ms (cache hit)
+86 http cache snapdragon-util@https://registry.npmjs.org/snapdragon-util/-/snapdragon-util-3.0.1.tgz 0ms (cache hit)
+87 http cache snapdragon@https://registry.npmjs.org/snapdragon/-/snapdragon-0.8.2.tgz 0ms (cache hit)
+88 http cache sizzle@https://registry.npmjs.org/sizzle/-/sizzle-2.3.10.tgz 0ms (cache hit)
+89 http cache simple-concat@https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz 0ms (cache hit)
+90 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+91 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+92 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz 0ms (cache hit)
+93 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.1.tgz 0ms (cache hit)
+94 http cache shell-quote@https://registry.npmjs.org/shell-quote/-/shell-quote-1.12.0.tgz 0ms (cache hit)
+95 http cache shasum-object@https://registry.npmjs.org/shasum-object/-/shasum-object-1.0.1.tgz 0ms (cache hit)
+96 http cache shasum@https://registry.npmjs.org/shasum/-/shasum-1.0.2.tgz 0ms (cache hit)
+97 http cache sha.js@https://registry.npmjs.org/sha.js/-/sha.js-2.4.12.tgz 0ms (cache hit)
+98 http cache set-value@https://registry.npmjs.org/set-value/-/set-value-2.0.1.tgz 0ms (cache hit)
+99 http cache set-function-length@https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz 0ms (cache hit)
+100 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+101 http cache safe-regex@https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz 0ms (cache hit)
+102 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+103 http cache ripemd160@https://registry.npmjs.org/ripemd160/-/ripemd160-2.0.3.tgz 0ms (cache hit)
+104 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz 0ms (cache hit)
+105 http cache right-align@https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz 0ms (cache hit)
+106 http cache ret@https://registry.npmjs.org/ret/-/ret-0.1.15.tgz 0ms (cache hit)
+107 http cache resolve-url@https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz 0ms (cache hit)
+108 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.13.tgz 0ms (cache hit)
+109 http cache request@https://registry.npmjs.org/request/-/request-2.88.0.tgz 0ms (cache hit)
+110 http cache repeat-string@https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz 0ms (cache hit)
+111 http cache repeat-element@https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.4.tgz 0ms (cache hit)
+112 http cache remove-trailing-separator@https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz 0ms (cache hit)
+113 http cache regex-not@https://registry.npmjs.org/regex-not/-/regex-not-1.0.2.tgz 0ms (cache hit)
+114 http cache regex-cache@https://registry.npmjs.org/regex-cache/-/regex-cache-0.4.4.tgz 0ms (cache hit)
+115 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz 0ms (cache hit)
+116 http cache read-only-stream@https://registry.npmjs.org/read-only-stream/-/read-only-stream-2.0.0.tgz 0ms (cache hit)
+117 http cache randomfill@https://registry.npmjs.org/randomfill/-/randomfill-1.0.4.tgz 0ms (cache hit)
+118 http cache randombytes@https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz 0ms (cache hit)
+119 http cache randomatic@https://registry.npmjs.org/randomatic/-/randomatic-3.1.1.tgz 0ms (cache hit)
+120 http cache querystring-es3@https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz 0ms (cache hit)
+121 http cache qs@https://registry.npmjs.org/qs/-/qs-6.16.1.tgz 0ms (cache hit)
+122 http cache q@https://registry.npmjs.org/q/-/q-1.5.1.tgz 0ms (cache hit)
+123 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 0ms (cache hit)
+124 http cache public-encrypt@https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz 0ms (cache hit)
+125 http cache psl@https://registry.npmjs.org/psl/-/psl-1.15.0.tgz 0ms (cache hit)
+126 http cache prr@https://registry.npmjs.org/prr/-/prr-1.0.1.tgz 0ms (cache hit)
+127 http cache process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 0ms (cache hit)
+128 http cache process@https://registry.npmjs.org/process/-/process-0.11.10.tgz 0ms (cache hit)
+129 http cache preserve@https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz 0ms (cache hit)
+130 http cache possible-typed-array-names@https://registry.npmjs.org/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz 0ms (cache hit)
+131 http cache posix-character-classes@https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz 0ms (cache hit)
+132 http cache pngjs@https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz 0ms (cache hit)
+133 http cache png-img@https://registry.npmjs.org/png-img/-/png-img-2.3.0.tgz 0ms (cache hit)
+134 http cache plugins-loader@https://registry.npmjs.org/plugins-loader/-/plugins-loader-1.3.4.tgz 0ms (cache hit)
+135 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+136 http cache performance-now@https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz 0ms (cache hit)
+137 http cache pbkdf2@https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.7.tgz 0ms (cache hit)
+138 http cache path-platform@https://registry.npmjs.org/path-platform/-/path-platform-0.11.15.tgz 0ms (cache hit)
+139 http cache path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 0ms (cache hit)
+140 http cache path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 0ms (cache hit)
+141 http cache path-dirname@https://registry.npmjs.org/path-dirname/-/path-dirname-1.0.2.tgz 0ms (cache hit)
+142 http cache path-browserify@https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.1.tgz 0ms (cache hit)
+143 http cache pascalcase@https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz 0ms (cache hit)
+144 http cache parse-glob@https://registry.npmjs.org/parse-glob/-/parse-glob-3.0.4.tgz 0ms (cache hit)
+145 http cache parse-color@https://registry.npmjs.org/parse-color/-/parse-color-1.0.0.tgz 0ms (cache hit)
+146 http cache parse-asn1@https://registry.npmjs.org/parse-asn1/-/parse-asn1-5.1.10.tgz 0ms (cache hit)
+147 http cache parents@https://registry.npmjs.org/parents/-/parents-1.0.1.tgz 0ms (cache hit)
+148 http cache pako@https://registry.npmjs.org/pako/-/pako-0.2.9.tgz 0ms (cache hit)
+149 http cache os-browserify@https://registry.npmjs.org/os-browserify/-/os-browserify-0.1.2.tgz 0ms (cache hit)
+150 http cache optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz 0ms (cache hit)
+151 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+152 http cache object.pick@https://registry.npmjs.org/object.pick/-/object.pick-1.3.0.tgz 0ms (cache hit)
+153 http cache object.omit@https://registry.npmjs.org/object.omit/-/object.omit-2.0.1.tgz 0ms (cache hit)
+154 http cache object.assign@https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz 0ms (cache hit)
+155 http cache object-visit@https://registry.npmjs.org/object-visit/-/object-visit-1.0.1.tgz 0ms (cache hit)
+156 http cache object-keys@https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz 0ms (cache hit)
+157 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+158 http cache object-copy@https://registry.npmjs.org/object-copy/-/object-copy-0.1.0.tgz 0ms (cache hit)
+159 http cache oauth-sign@https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz 0ms (cache hit)
+160 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-2.1.1.tgz 0ms (cache hit)
+161 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.3.tgz 1ms (cache hit)
+162 http cache nested-error-stacks@https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz 0ms (cache hit)
+163 http cache neo-async@https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz 0ms (cache hit)
+164 http cache nanomatch@https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz 0ms (cache hit)
+165 http cache nan@https://registry.npmjs.org/nan/-/nan-2.30.0.tgz 0ms (cache hit)
+166 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+167 http cache module-deps@https://registry.npmjs.org/module-deps/-/module-deps-4.1.1.tgz 0ms (cache hit)
+168 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 0ms (cache hit)
+169 http cache mixin-deep@https://registry.npmjs.org/mixin-deep/-/mixin-deep-1.3.2.tgz 0ms (cache hit)
+170 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+171 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz 0ms (cache hit)
+172 http cache minimalistic-crypto-utils@https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz 0ms (cache hit)
+173 http cache minimalistic-assert@https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz 0ms (cache hit)
+174 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+175 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+176 http cache miller-rabin@https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.1.tgz 0ms (cache hit)
+177 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-2.3.11.tgz 0ms (cache hit)
+178 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+179 http cache md5.js@https://registry.npmjs.org/md5.js/-/md5.js-1.3.5.tgz 0ms (cache hit)
+180 http cache math-random@https://registry.npmjs.org/math-random/-/math-random-1.0.4.tgz 0ms (cache hit)
+181 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+182 http cache map-visit@https://registry.npmjs.org/map-visit/-/map-visit-1.0.0.tgz 0ms (cache hit)
+183 http cache map-cache@https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz 0ms (cache hit)
+184 http cache looks-same@https://registry.npmjs.org/looks-same/-/looks-same-7.3.0.tgz 0ms (cache hit)
+185 http cache longest@https://registry.npmjs.org/longest/-/longest-1.0.1.tgz 0ms (cache hit)
+186 http cache lodash.union@https://registry.npmjs.org/lodash.union/-/lodash.union-4.6.0.tgz 0ms (cache hit)
+187 http cache lodash.memoize@https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-3.0.4.tgz 0ms (cache hit)
+188 http cache lodash.isplainobject@https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz 0ms (cache hit)
+189 http cache lodash.flatten@https://registry.npmjs.org/lodash.flatten/-/lodash.flatten-4.4.0.tgz 0ms (cache hit)
+190 http cache lodash.difference@https://registry.npmjs.org/lodash.difference/-/lodash.difference-4.5.0.tgz 0ms (cache hit)
+191 http cache lodash.defaults@https://registry.npmjs.org/lodash.defaults/-/lodash.defaults-4.2.0.tgz 0ms (cache hit)
+192 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz 0ms (cache hit)
+193 http cache lazystream@https://registry.npmjs.org/lazystream/-/lazystream-1.0.1.tgz 0ms (cache hit)
+194 http cache lazy-cache@https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz 0ms (cache hit)
+195 http cache labeled-stream-splicer@https://registry.npmjs.org/labeled-stream-splicer/-/labeled-stream-splicer-2.0.2.tgz 0ms (cache hit)
+196 http cache klaw@https://registry.npmjs.org/klaw/-/klaw-1.3.1.tgz 0ms (cache hit)
+197 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz 0ms (cache hit)
+198 http cache jsprim@https://registry.npmjs.org/jsprim/-/jsprim-1.4.2.tgz 0ms (cache hit)
+199 http cache JSONStream@https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.5.tgz 0ms (cache hit)
+200 http cache jsonparse@https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz 0ms (cache hit)
+201 http cache jsonify@https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz 0ms (cache hit)
+202 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz 0ms (cache hit)
+203 http cache json-stringify-safe@https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz 0ms (cache hit)
+204 http cache json-stable-stringify@https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-0.0.1.tgz 0ms (cache hit)
+205 http cache json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 0ms (cache hit)
+206 http cache json-schema@https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz 0ms (cache hit)
+207 http cache jsbn@https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz 0ms (cache hit)
+208 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-3.15.2.tgz 0ms (cache hit)
+209 http cache js-graph-algorithms@https://registry.npmjs.org/js-graph-algorithms/-/js-graph-algorithms-1.0.18.tgz 0ms (cache hit)
+210 http cache isstream@https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz 0ms (cache hit)
+211 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz 0ms (cache hit)
+212 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 0ms (cache hit)
+213 http cache is-windows@https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz 0ms (cache hit)
+214 http cache is-typedarray@https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz 0ms (cache hit)
+215 http cache is-typed-array@https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.15.tgz 0ms (cache hit)
+216 http cache is-stream@https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz 0ms (cache hit)
+217 http cache is-primitive@https://registry.npmjs.org/is-primitive/-/is-primitive-2.0.0.tgz 0ms (cache hit)
+218 http cache is-posix-bracket@https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz 0ms (cache hit)
+219 http cache is-plain-object@https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz 0ms (cache hit)
+220 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-2.1.0.tgz 0ms (cache hit)
+221 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+222 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+223 http cache is-extendable@https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz 0ms (cache hit)
+224 http cache is-equal-shallow@https://registry.npmjs.org/is-equal-shallow/-/is-equal-shallow-0.1.3.tgz 0ms (cache hit)
+225 http cache is-dotfile@https://registry.npmjs.org/is-dotfile/-/is-dotfile-1.0.3.tgz 0ms (cache hit)
+226 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.4.tgz 0ms (cache hit)
+227 http cache is-data-descriptor@https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.1.tgz 0ms (cache hit)
+228 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.17.0.tgz 0ms (cache hit)
+229 http cache is-callable@https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz 0ms (cache hit)
+230 http cache is-buffer@https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz 0ms (cache hit)
+231 http cache is-accessor-descriptor@https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.2.tgz 0ms (cache hit)
+232 http cache insert-module-globals@https://registry.npmjs.org/insert-module-globals/-/insert-module-globals-7.2.1.tgz 0ms (cache hit)
+233 http cache inline-source-map@https://registry.npmjs.org/inline-source-map/-/inline-source-map-0.6.3.tgz 0ms (cache hit)
+234 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+235 http cache inherit@https://registry.npmjs.org/inherit/-/inherit-2.2.7.tgz 0ms (cache hit)
+236 http cache inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 0ms (cache hit)
+237 http cache indexof@https://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz 0ms (cache hit)
+238 http cache ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 0ms (cache hit)
+239 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 0ms (cache hit)
+240 http cache https-browserify@https://registry.npmjs.org/https-browserify/-/https-browserify-0.0.1.tgz 0ms (cache hit)
+241 http cache http-signature@https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 0ms (cache hit)
+242 http cache htmlescape@https://registry.npmjs.org/htmlescape/-/htmlescape-1.1.1.tgz 0ms (cache hit)
+243 http cache hmac-drbg@https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz 0ms (cache hit)
+244 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz 0ms (cache hit)
+245 http cache hash.js@https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz 0ms (cache hit)
+246 http cache hash-base@https://registry.npmjs.org/hash-base/-/hash-base-3.0.5.tgz 0ms (cache hit)
+247 http cache has-values@https://registry.npmjs.org/has-values/-/has-values-1.0.0.tgz 0ms (cache hit)
+248 http cache has-value@https://registry.npmjs.org/has-value/-/has-value-1.0.0.tgz 0ms (cache hit)
+249 http cache has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+250 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+251 http cache has-property-descriptors@https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz 0ms (cache hit)
+252 http cache has-ansi@https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz 0ms (cache hit)
+253 http cache has@https://registry.npmjs.org/has/-/has-1.0.4.tgz 0ms (cache hit)
+254 http cache har-validator@https://registry.npmjs.org/har-validator/-/har-validator-5.1.5.tgz 0ms (cache hit)
+255 http cache har-schema@https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz 0ms (cache hit)
+256 http cache handlebars@https://registry.npmjs.org/handlebars/-/handlebars-4.7.10.tgz 0ms (cache hit)
+257 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+258 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+259 http cache glob-to-regexp@https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz 0ms (cache hit)
+260 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-3.1.0.tgz 0ms (cache hit)
+261 http cache glob-extra@https://registry.npmjs.org/glob-extra/-/glob-extra-4.0.2.tgz 0ms (cache hit)
+262 http cache glob-base@https://registry.npmjs.org/glob-base/-/glob-base-0.3.0.tgz 0ms (cache hit)
+263 http cache glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 0ms (cache hit)
+264 http cache getpass@https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz 0ms (cache hit)
+265 http cache get-value@https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz 0ms (cache hit)
+266 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+267 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+268 http cache get-assigned-identifiers@https://registry.npmjs.org/get-assigned-identifiers/-/get-assigned-identifiers-1.2.0.tgz 0ms (cache hit)
+269 http cache gemini-coverage@https://registry.npmjs.org/gemini-coverage/-/gemini-coverage-2.0.0.tgz 0ms (cache hit)
+270 http cache gemini-core@https://registry.npmjs.org/gemini-core/-/gemini-core-3.8.3.tgz 0ms (cache hit)
+271 http cache gemini-configparser@https://registry.npmjs.org/gemini-configparser/-/gemini-configparser-1.4.2.tgz 0ms (cache hit)
+272 http cache gemini@https://registry.npmjs.org/gemini/-/gemini-7.5.2.tgz 0ms (cache hit)
+273 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+274 http cache fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 0ms (cache hit)
+275 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-0.30.0.tgz 0ms (cache hit)
+276 http cache fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 0ms (cache hit)
+277 http cache fragment-cache@https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz 0ms (cache hit)
+278 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 0ms (cache hit)
+279 http cache forever-agent@https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 0ms (cache hit)
+280 http cache foreach@https://registry.npmjs.org/foreach/-/foreach-2.0.6.tgz 0ms (cache hit)
+281 http cache for-own@https://registry.npmjs.org/for-own/-/for-own-0.1.5.tgz 1ms (cache hit)
+282 http cache for-in@https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz 0ms (cache hit)
+283 http cache for-each@https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz 0ms (cache hit)
+284 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-2.2.4.tgz 1ms (cache hit)
+285 http cache filename-regex@https://registry.npmjs.org/filename-regex/-/filename-regex-2.0.1.tgz 0ms (cache hit)
+286 http cache fast-safe-stringify@https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz 0ms (cache hit)
+287 http cache fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 0ms (cache hit)
+288 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-2.2.7.tgz 0ms (cache hit)
+289 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+290 http cache falafel@https://registry.npmjs.org/falafel/-/falafel-1.2.0.tgz 0ms (cache hit)
+291 http cache extsprintf@https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz 0ms (cache hit)
+292 http cache extglob@https://registry.npmjs.org/extglob/-/extglob-0.3.2.tgz 0ms (cache hit)
+293 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz 0ms (cache hit)
+294 http cache extend@https://registry.npmjs.org/extend/-/extend-1.3.0.tgz 0ms (cache hit)
+295 http cache expand-range@https://registry.npmjs.org/expand-range/-/expand-range-1.8.2.tgz 0ms (cache hit)
+296 http cache expand-brackets@https://registry.npmjs.org/expand-brackets/-/expand-brackets-0.1.5.tgz 0ms (cache hit)
+297 http cache evp_bytestokey@https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz 0ms (cache hit)
+298 http cache events@https://registry.npmjs.org/events/-/events-1.1.1.tgz 0ms (cache hit)
+299 http cache esprima@https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 0ms (cache hit)
+300 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 0ms (cache hit)
+301 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz 0ms (cache hit)
+302 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+303 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+304 http cache errno@https://registry.npmjs.org/errno/-/errno-0.1.8.tgz 0ms (cache hit)
+305 http cache end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz 0ms (cache hit)
+306 http cache encoding@https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz 0ms (cache hit)
+307 http cache elliptic@https://registry.npmjs.org/elliptic/-/elliptic-6.6.1.tgz 0ms (cache hit)
+308 http cache ecc-jsbn@https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz 0ms (cache hit)
+309 http cache duplexer2@https://registry.npmjs.org/duplexer2/-/duplexer2-0.1.4.tgz 0ms (cache hit)
+310 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+311 http cache domain-browser@https://registry.npmjs.org/domain-browser/-/domain-browser-1.1.7.tgz 0ms (cache hit)
+312 http cache diffie-hellman@https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz 0ms (cache hit)
+313 http cache detective@https://registry.npmjs.org/detective/-/detective-4.7.1.tgz 0ms (cache hit)
+314 http cache des.js@https://registry.npmjs.org/des.js/-/des.js-1.1.0.tgz 0ms (cache hit)
+315 http cache deps-sort@https://registry.npmjs.org/deps-sort/-/deps-sort-2.0.1.tgz 0ms (cache hit)
+316 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+317 http cache defined@https://registry.npmjs.org/defined/-/defined-1.0.1.tgz 0ms (cache hit)
+318 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-2.0.2.tgz 0ms (cache hit)
+319 http cache define-properties@https://registry.npmjs.org/define-properties/-/define-properties-1.2.1.tgz 0ms (cache hit)
+320 http cache define-data-property@https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz 0ms (cache hit)
+321 http cache decode-uri-component@https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.2.tgz 0ms (cache hit)
+322 http cache decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 0ms (cache hit)
+323 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+324 http cache dashdash@https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz 0ms (cache hit)
+325 http cache dash-ast@https://registry.npmjs.org/dash-ast/-/dash-ast-1.0.0.tgz 0ms (cache hit)
+326 http cache css@https://registry.npmjs.org/css/-/css-2.2.4.tgz 0ms (cache hit)
+327 http cache crypto-browserify@https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.12.1.tgz 0ms (cache hit)
+328 http cache create-hmac@https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz 0ms (cache hit)
+329 http cache create-hash@https://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz 0ms (cache hit)
+330 http cache create-ecdh@https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.4.tgz 0ms (cache hit)
+331 http cache crc32-stream@https://registry.npmjs.org/crc32-stream/-/crc32-stream-3.0.1.tgz 0ms (cache hit)
+332 http cache crc@https://registry.npmjs.org/crc/-/crc-3.8.0.tgz 0ms (cache hit)
+333 http cache core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz 0ms (cache hit)
+334 http cache copy-descriptor@https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz 0ms (cache hit)
+335 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz 0ms (cache hit)
+336 http cache constants-browserify@https://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz 0ms (cache hit)
+337 http cache console-browserify@https://registry.npmjs.org/console-browserify/-/console-browserify-1.2.0.tgz 0ms (cache hit)
+338 http cache concat-stream@https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.2.tgz 0ms (cache hit)
+339 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+340 http cache compress-commons@https://registry.npmjs.org/compress-commons/-/compress-commons-2.1.1.tgz 0ms (cache hit)
+341 http cache component-emitter@https://registry.npmjs.org/component-emitter/-/component-emitter-1.3.1.tgz 0ms (cache hit)
+342 http cache commander@https://registry.npmjs.org/commander/-/commander-2.20.3.tgz 1ms (cache hit)
+343 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+344 http cache combine-source-map@https://registry.npmjs.org/combine-source-map/-/combine-source-map-0.8.0.tgz 0ms (cache hit)
+345 http cache color-diff@https://registry.npmjs.org/color-diff/-/color-diff-1.4.0.tgz 0ms (cache hit)
+346 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-0.5.3.tgz 0ms (cache hit)
+347 http cache collection-visit@https://registry.npmjs.org/collection-visit/-/collection-visit-1.0.0.tgz 0ms (cache hit)
+348 http cache coa@https://registry.npmjs.org/coa/-/coa-1.0.4.tgz 0ms (cache hit)
+349 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz 0ms (cache hit)
+350 http cache class-utils@https://registry.npmjs.org/class-utils/-/class-utils-0.3.6.tgz 0ms (cache hit)
+351 http cache cipher-base@https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.7.tgz 0ms (cache hit)
+352 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz 0ms (cache hit)
+353 http cache center-align@https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz 0ms (cache hit)
+354 http cache caseless@https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz 0ms (cache hit)
+355 http cache camelcase@https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz 0ms (cache hit)
+356 http cache call-me-maybe@https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.2.tgz 0ms (cache hit)
+357 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+358 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+359 http cache call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.9.tgz 0ms (cache hit)
+360 http cache cached-path-relative@https://registry.npmjs.org/cached-path-relative/-/cached-path-relative-1.1.0.tgz 0ms (cache hit)
+361 http cache cache-base@https://registry.npmjs.org/cache-base/-/cache-base-1.0.1.tgz 0ms (cache hit)
+362 http cache builtin-status-codes@https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz 0ms (cache hit)
+363 http cache buffer-xor@https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz 0ms (cache hit)
+364 http cache buffer-from@https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz 0ms (cache hit)
+365 http cache buffer-crc32@https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 0ms (cache hit)
+366 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-4.9.2.tgz 0ms (cache hit)
+367 http cache browserify-zlib@https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.1.4.tgz 0ms (cache hit)
+368 http cache browserify-transform-tools@https://registry.npmjs.org/browserify-transform-tools/-/browserify-transform-tools-1.5.3.tgz 0ms (cache hit)
+369 http cache browserify-sign@https://registry.npmjs.org/browserify-sign/-/browserify-sign-4.2.6.tgz 0ms (cache hit)
+370 http cache browserify-rsa@https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.1.1.tgz 0ms (cache hit)
+371 http cache browserify-des@https://registry.npmjs.org/browserify-des/-/browserify-des-1.0.2.tgz 0ms (cache hit)
+372 http cache browserify-cipher@https://registry.npmjs.org/browserify-cipher/-/browserify-cipher-1.0.1.tgz 0ms (cache hit)
+373 http cache browserify-aes@https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz 0ms (cache hit)
+374 http cache browserify@https://registry.npmjs.org/browserify/-/browserify-13.3.0.tgz 0ms (cache hit)
+375 http cache browser-resolve@https://registry.npmjs.org/browser-resolve/-/browser-resolve-1.11.3.tgz 0ms (cache hit)
+376 http cache browser-pack@https://registry.npmjs.org/browser-pack/-/browser-pack-6.1.0.tgz 0ms (cache hit)
+377 http cache brorand@https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz 0ms (cache hit)
+378 http cache braces@https://registry.npmjs.org/braces/-/braces-1.8.5.tgz 0ms (cache hit)
+379 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.21.tgz 0ms (cache hit)
+380 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-5.2.5.tgz 0ms (cache hit)
+381 http cache bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz 0ms (cache hit)
+382 http cache bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 0ms (cache hit)
+383 http cache bcrypt-pbkdf@https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz 1ms (cache hit)
+384 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+385 http cache base@https://registry.npmjs.org/base/-/base-0.11.2.tgz 0ms (cache hit)
+386 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+387 http cache aws4@https://registry.npmjs.org/aws4/-/aws4-1.13.2.tgz 0ms (cache hit)
+388 http cache aws-sign2@https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 0ms (cache hit)
+389 http cache available-typed-arrays@https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.7.tgz 0ms (cache hit)
+390 http cache atob@https://registry.npmjs.org/atob/-/atob-2.1.2.tgz 0ms (cache hit)
+391 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+392 http cache async@https://registry.npmjs.org/async/-/async-2.6.4.tgz 0ms (cache hit)
+393 http cache assign-symbols@https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz 0ms (cache hit)
+394 http cache assert-plus@https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 0ms (cache hit)
+395 http cache assert@https://registry.npmjs.org/assert/-/assert-1.5.1.tgz 0ms (cache hit)
+396 http cache asn1.js@https://registry.npmjs.org/asn1.js/-/asn1.js-4.10.1.tgz 0ms (cache hit)
+397 http cache asn1@https://registry.npmjs.org/asn1/-/asn1-0.2.6.tgz 0ms (cache hit)
+398 http cache array-unique@https://registry.npmjs.org/array-unique/-/array-unique-0.2.1.tgz 0ms (cache hit)
+399 http cache arr-union@https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz 0ms (cache hit)
+400 http cache arr-flatten@https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.1.0.tgz 0ms (cache hit)
+401 http cache arr-diff@https://registry.npmjs.org/arr-diff/-/arr-diff-2.0.0.tgz 0ms (cache hit)
+402 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz 0ms (cache hit)
+403 http cache archiver-utils@https://registry.npmjs.org/archiver-utils/-/archiver-utils-2.1.0.tgz 0ms (cache hit)
+404 http cache archiver@https://registry.npmjs.org/archiver/-/archiver-3.1.1.tgz 0ms (cache hit)
+405 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz 0ms (cache hit)
+406 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 0ms (cache hit)
+407 http cache amdefine@https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz 0ms (cache hit)
+408 http cache align-text@https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz 0ms (cache hit)
+409 http cache aliasify@https://registry.npmjs.org/aliasify/-/aliasify-1.9.0.tgz 0ms (cache hit)
+410 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz 0ms (cache hit)
+411 http cache acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz 0ms (cache hit)
+412 http cache acorn-node@https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz 0ms (cache hit)
+413 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz 0ms (cache hit)
+414 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz 0ms (cache hit)
+415 http cache @mrmlnc/readdir-enhanced@https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz 0ms (cache hit)
+416 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+417 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+418 http cache core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 0ms (cache hit)
+419 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz 1ms (cache hit)
+420 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+421 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+422 http cache has-values@https://registry.npmjs.org/has-values/-/has-values-0.1.4.tgz 0ms (cache hit)
+423 http cache has-value@https://registry.npmjs.org/has-value/-/has-value-0.3.1.tgz 0ms (cache hit)
+424 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz 0ms (cache hit)
+425 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz 0ms (cache hit)
+426 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz 0ms (cache hit)
+427 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.6.3.tgz 0ms (cache hit)
+428 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+429 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+430 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.8.tgz 0ms (cache hit)
+431 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz 1ms (cache hit)
+432 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+433 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz 0ms (cache hit)
+434 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.8.tgz 0ms (cache hit)
+435 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+436 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz 0ms (cache hit)
+437 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 1ms (cache hit)
+438 http cache hash-base@https://registry.npmjs.org/hash-base/-/hash-base-3.1.2.tgz 0ms (cache hit)
+439 http cache qs@https://registry.npmjs.org/qs/-/qs-6.5.5.tgz 0ms (cache hit)
+440 http cache extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 0ms (cache hit)
+441 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 0ms (cache hit)
+442 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 0ms (cache hit)
+443 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 0ms (cache hit)
+444 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-4.0.0.tgz 0ms (cache hit)
+445 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+446 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+447 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz 0ms (cache hit)
+448 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz 0ms (cache hit)
+449 http cache wordwrap@https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz 0ms (cache hit)
+450 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+451 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+452 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.8.tgz 0ms (cache hit)
+453 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz 0ms (cache hit)
+454 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 0ms (cache hit)
+455 http cache array-unique@https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz 0ms (cache hit)
+456 http cache arr-diff@https://registry.npmjs.org/arr-diff/-/arr-diff-4.0.0.tgz 0ms (cache hit)
+457 http cache is-extendable@https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz 1ms (cache hit)
+458 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+459 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz 0ms (cache hit)
+460 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz 0ms (cache hit)
+461 http cache typedarray@https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz 0ms (cache hit)
+462 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 0ms (cache hit)
+463 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 0ms (cache hit)
+464 http cache concat-stream@https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz 0ms (cache hit)
+465 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+466 http cache typedarray@https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz 0ms (cache hit)
+467 http cache concat-stream@https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz 0ms (cache hit)
+468 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-4.0.0.tgz 0ms (cache hit)
+469 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz 0ms (cache hit)
+470 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz 0ms (cache hit)
+471 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+472 http cache uglify-js@https://registry.npmjs.org/uglify-js/-/uglify-js-3.19.3.tgz 0ms (cache hit)
+473 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 1ms (cache hit)
+474 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-3.1.0.tgz 0ms (cache hit)
+475 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz 0ms (cache hit)
+476 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz 0ms (cache hit)
+477 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-2.0.0.tgz 0ms (cache hit)
+478 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz 0ms (cache hit)
+479 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 0ms (cache hit)
+480 http cache uglify-js@https://registry.npmjs.org/uglify-js/-/uglify-js-2.3.6.tgz 0ms (cache hit)
+481 http cache handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.3.0.tgz 0ms (cache hit)
+482 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-5.0.0.tgz 0ms (cache hit)
+483 http cache async@https://registry.npmjs.org/async/-/async-0.2.10.tgz 0ms (cache hit)
+484 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+485 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+486 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+487 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+488 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+489 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-3.1.10.tgz 0ms (cache hit)
+490 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 0ms (cache hit)
+491 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+492 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz 0ms (cache hit)
+493 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz 0ms (cache hit)
+494 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-4.0.0.tgz 0ms (cache hit)
+495 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+496 http cache extglob@https://registry.npmjs.org/extglob/-/extglob-2.0.4.tgz 0ms (cache hit)
+497 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+498 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz 0ms (cache hit)
+499 http cache expand-brackets@https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz 0ms (cache hit)
+500 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.8.tgz 0ms (cache hit)
+501 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+502 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz 0ms (cache hit)
+503 http cache braces@https://registry.npmjs.org/braces/-/braces-2.3.2.tgz 0ms (cache hit)
+504 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+505 http cache array-unique@https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz 0ms (cache hit)
+506 http cache arr-diff@https://registry.npmjs.org/arr-diff/-/arr-diff-4.0.0.tgz 0ms (cache hit)
+507 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz 0ms (cache hit)
+508 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz 0ms (cache hit)
+509 http cache is-extendable@https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz 0ms (cache hit)
+510 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+511 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+512 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz 1ms (cache hit)
+513 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+514 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 0ms (cache hit)
+515 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+516 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+517 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+518 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 0ms (cache hit)
+519 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz 0ms (cache hit)
+520 http cache process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz 0ms (cache hit)
+521 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 0ms (cache hit)
+522 http cache wordwrap@https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz 0ms (cache hit)
+523 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+524 http cache is-descriptor@https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.8.tgz 0ms (cache hit)
+525 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz 0ms (cache hit)
+526 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+527 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz 0ms (cache hit)
+528 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+529 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+530 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 0ms (cache hit)
+531 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 1ms (cache hit)
+532 http cache define-property@https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz 0ms (cache hit)
+533 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz 0ms (cache hit)
+534 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 0ms (cache hit)
+535 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+536 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+537 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz 0ms (cache hit)
+538 silly tarball no local data for @vercel/analytics@https://registry.npmjs.org/@vercel/analytics/-/analytics-2.0.1.tgz. Extracting by manifest.
+539 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1470ms
+540 silly audit report {
+540 silly audit report   braces: [
+540 silly audit report     {
+540 silly audit report       id: 1098094,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+540 silly audit report       title: 'Uncontrolled resource consumption in braces',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.3',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'decode-uri-component': [
+540 silly audit report     {
+540 silly audit report       id: 1243857,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-qr28-fpjm-wq7f',
+540 silly audit report       title: 'decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<=0.5.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1147955,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-vcc3-ghjq-m6fr',
+540 silly audit report       title: 'decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<=0.4.2',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   elliptic: [
+540 silly audit report     {
+540 silly audit report       id: 1112030,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-848j-6mx2-7j84',
+540 silly audit report       title: 'Elliptic Uses a Cryptographic Primitive with a Risky Implementation',
+540 silly audit report       severity: 'low',
+540 silly audit report       vulnerable_versions: '<=6.6.1',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   extend: [
+540 silly audit report     {
+540 silly audit report       id: 1112499,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-qrmc-fj45-qfc2',
+540 silly audit report       title: 'Prototype Pollution in extend',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '>=1.1.3 <2.0.2',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   micromatch: [
+540 silly audit report     {
+540 silly audit report       id: 1098681,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-952p-6rrq-rcjv',
+540 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in micromatch',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<4.0.8',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'form-data': [
+540 silly audit report     {
+540 silly audit report       id: 1109540,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-fjxv-7rqg-78g4',
+540 silly audit report       title: 'form-data uses unsafe random function in form-data for choosing boundary',
+540 silly audit report       severity: 'critical',
+540 silly audit report       vulnerable_versions: '<2.5.4',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1120745,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-hmw2-7cc7-3qxx',
+540 silly audit report       title: 'form-data: CRLF injection in form-data via unescaped multipart field names and filenames',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<2.5.6',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   handlebars: [
+540 silly audit report     {
+540 silly audit report       id: 1102331,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-w457-6q6x-cgp9',
+540 silly audit report       title: 'Prototype Pollution in handlebars',
+540 silly audit report       severity: 'critical',
+540 silly audit report       vulnerable_versions: '<3.0.8',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1102335,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-765h-qjxv-5f44',
+540 silly audit report       title: 'Prototype Pollution in handlebars',
+540 silly audit report       severity: 'critical',
+540 silly audit report       vulnerable_versions: '<4.7.7',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1086649,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-q2c6-c6pm-g3gh',
+540 silly audit report       title: 'Arbitrary Code Execution in handlebars',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.8',
+540 silly audit report       cwe: [],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1086651,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-g9r4-xpmj-mj65',
+540 silly audit report       title: 'Prototype Pollution in handlebars',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.8',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1087652,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-9prh-257w-9277',
+540 silly audit report       title: 'Cross-Site Scripting in handlebars',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<4.0.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1095063,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-f2jv-r9rf-7988',
+540 silly audit report       title: 'Remote code execution in handlebars when compiling templates',
+540 silly audit report       severity: 'critical',
+540 silly audit report       vulnerable_versions: '<4.7.7',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1095065,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-3cqr-58rm-57f8',
+540 silly audit report       title: 'Arbitrary Code Execution in Handlebars',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.8',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1095066,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-q42p-pg8m-cqh6',
+540 silly audit report       title: 'Prototype Pollution in handlebars',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.7',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1096405,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-2cf5-4w76-r9qv',
+540 silly audit report       title: 'Arbitrary Code Execution in handlebars',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.0.8',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'uglify-js': [
+540 silly audit report     {
+540 silly audit report       id: 1091686,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-c9f4-xj24-8jqx',
+540 silly audit report       title: 'Regular Expression Denial of Service in uglify-js',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<2.6.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1091710,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-34r7-q49f-h37c',
+540 silly audit report       title: 'Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js',
+540 silly audit report       severity: 'critical',
+540 silly audit report       vulnerable_versions: '<2.4.24',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'node-fetch': [
+540 silly audit report     {
+540 silly audit report       id: 1095073,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-r683-j2x4-v87g',
+540 silly audit report       title: 'node-fetch forwards secure headers to untrusted sites',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<2.6.7',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'png-img': [
+540 silly audit report     {
+540 silly audit report       id: 1089693,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-q5wr-fvpq-p67g',
+540 silly audit report       title: 'Integer Overflow in png-img',
+540 silly audit report       severity: 'high',
+540 silly audit report       vulnerable_versions: '<3.1.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   qs: [
+540 silly audit report     {
+540 silly audit report       id: 1158507,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-4mjr-xmp4-gh2g',
+540 silly audit report       title: 'qs: Denial of Service via Attacker Controlled isBuffer',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '>=2.2.5 <6.16.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     },
+540 silly audit report     {
+540 silly audit report       id: 1113719,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-6rw7-vpxm-498p',
+540 silly audit report       title: "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<6.14.1',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   request: [
+540 silly audit report     {
+540 silly audit report       id: 1096727,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-p8p7-x288-28g6',
+540 silly audit report       title: 'Server-Side Request Forgery in Request',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<=2.88.2',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   striptags: [
+540 silly audit report     {
+540 silly audit report       id: 1089720,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-qxg5-2qff-p49r',
+540 silly audit report       title: "Passing in a non-string 'html' argument can lead to unsanitized output",
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<3.2.0',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   'tough-cookie': [
+540 silly audit report     {
+540 silly audit report       id: 1097682,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-72xf-g2v4-qvf3',
+540 silly audit report       title: 'tough-cookie Prototype Pollution vulnerability',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<4.1.3',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ],
+540 silly audit report   uuid: [
+540 silly audit report     {
+540 silly audit report       id: 1119441,
+540 silly audit report       url: 'https://github.com/advisories/GHSA-w5hq-g745-h8pq',
+540 silly audit report       title: 'uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided',
+540 silly audit report       severity: 'moderate',
+540 silly audit report       vulnerable_versions: '<11.1.1',
+540 silly audit report       cwe: [Array],
+540 silly audit report       cvss: [Object]
+540 silly audit report     }
+540 silly audit report   ]
+540 silly audit report }
+541 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+542 silly packumentCache corgi:https://registry.npmjs.org/decode-uri-component cache-miss
+543 silly packumentCache corgi:https://registry.npmjs.org/elliptic cache-miss
+544 silly packumentCache corgi:https://registry.npmjs.org/extend cache-miss
+545 silly packumentCache corgi:https://registry.npmjs.org/micromatch cache-miss
+546 silly packumentCache corgi:https://registry.npmjs.org/form-data cache-miss
+547 silly packumentCache corgi:https://registry.npmjs.org/handlebars cache-miss
+548 silly packumentCache corgi:https://registry.npmjs.org/uglify-js cache-miss
+549 silly packumentCache corgi:https://registry.npmjs.org/node-fetch cache-miss
+550 silly packumentCache corgi:https://registry.npmjs.org/png-img cache-miss
+551 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+552 silly packumentCache corgi:https://registry.npmjs.org/request cache-miss
+553 silly packumentCache corgi:https://registry.npmjs.org/striptags cache-miss
+554 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie cache-miss
+555 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+556 warn deprecated path-dirname@1.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+557 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+558 warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+559 warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+560 warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+561 warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+562 warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+563 warn deprecated har-validator@5.1.5: this library is no longer supported
+564 warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+565 warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+565 warn deprecated
+565 warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+566 warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+567 warn deprecated uuid@3.4.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+568 http fetch GET 200 https://registry.npmjs.org/braces 1265ms (cache miss)
+569 silly packumentCache corgi:https://registry.npmjs.org/braces set size:undefined disposed:false
+570 http fetch GET 200 https://registry.npmjs.org/decode-uri-component 1277ms (cache miss)
+571 silly packumentCache corgi:https://registry.npmjs.org/decode-uri-component set size:undefined disposed:false
+572 warn deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+573 http fetch GET 200 https://registry.npmjs.org/extend 1378ms (cache miss)
+574 silly packumentCache corgi:https://registry.npmjs.org/extend set size:undefined disposed:false
+575 http fetch GET 200 https://registry.npmjs.org/form-data 1411ms (cache miss)
+576 silly packumentCache corgi:https://registry.npmjs.org/form-data set size:undefined disposed:false
+577 http fetch GET 200 https://registry.npmjs.org/micromatch 1442ms (cache miss)
+578 silly packumentCache corgi:https://registry.npmjs.org/micromatch set size:undefined disposed:false
+579 http fetch GET 200 https://registry.npmjs.org/elliptic 1458ms (cache miss)
+580 silly packumentCache corgi:https://registry.npmjs.org/elliptic set size:undefined disposed:false
+581 http fetch GET 200 https://registry.npmjs.org/tough-cookie 1452ms (cache miss)
+582 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie set size:undefined disposed:false
+583 http fetch GET 200 https://registry.npmjs.org/uuid 1491ms (cache miss)
+584 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+585 http fetch GET 200 https://registry.npmjs.org/striptags 1496ms (cache miss)
+586 silly packumentCache corgi:https://registry.npmjs.org/striptags set size:undefined disposed:false
+587 http fetch GET 200 https://registry.npmjs.org/request 1504ms (cache miss)
+588 silly packumentCache corgi:https://registry.npmjs.org/request set size:undefined disposed:false
+589 http fetch GET 200 https://registry.npmjs.org/png-img 1517ms (cache miss)
+590 silly packumentCache corgi:https://registry.npmjs.org/png-img set size:undefined disposed:false
+591 http fetch GET 200 https://registry.npmjs.org/handlebars 1582ms (cache miss)
+592 silly packumentCache corgi:https://registry.npmjs.org/handlebars set size:undefined disposed:false
+593 http fetch GET 200 https://registry.npmjs.org/node-fetch 1612ms (cache miss)
+594 silly packumentCache corgi:https://registry.npmjs.org/node-fetch set size:undefined disposed:false
+595 http fetch GET 200 https://registry.npmjs.org/qs 1639ms (cache miss)
+596 silly packumentCache corgi:https://registry.npmjs.org/qs set size:undefined disposed:false
+597 http fetch GET 200 https://registry.npmjs.org/uglify-js 1731ms (cache miss)
+598 silly packumentCache corgi:https://registry.npmjs.org/uglify-js set size:undefined disposed:false
+599 silly packumentCache corgi:https://registry.npmjs.org/source-map-resolve cache-miss
+600 http fetch GET 200 https://registry.npmjs.org/source-map-resolve 135ms (cache miss)
+601 silly packumentCache corgi:https://registry.npmjs.org/source-map-resolve set size:undefined disposed:false
+602 silly packumentCache corgi:https://registry.npmjs.org/browserify-sign cache-miss
+603 silly packumentCache corgi:https://registry.npmjs.org/create-ecdh cache-miss
+604 http fetch GET 200 https://registry.npmjs.org/@vercel/analytics/-/analytics-2.0.1.tgz 3085ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/browserify-sign 126ms (cache miss)
+606 silly packumentCache corgi:https://registry.npmjs.org/browserify-sign set size:undefined disposed:false
+607 http fetch GET 200 https://registry.npmjs.org/create-ecdh 132ms (cache miss)
+608 silly packumentCache corgi:https://registry.npmjs.org/create-ecdh set size:undefined disposed:false
+609 silly packumentCache corgi:https://registry.npmjs.org/uglifyify cache-miss
+610 http fetch GET 200 https://registry.npmjs.org/uglifyify 233ms (cache miss)
+611 silly packumentCache corgi:https://registry.npmjs.org/uglifyify set size:undefined disposed:false
+612 silly packumentCache corgi:https://registry.npmjs.org/fast-glob cache-miss
+613 silly packumentCache corgi:https://registry.npmjs.org/gemini cache-miss
+614 http fetch GET 200 https://registry.npmjs.org/fast-glob 88ms (cache miss)
+615 silly packumentCache corgi:https://registry.npmjs.org/fast-glob set size:undefined disposed:false
+616 info run png-img@2.3.0 install node_modules/png-img node-gyp rebuild
+617 info run wd@1.14.0 install node_modules/wd node scripts/build-browser-scripts
+618 http fetch GET 200 https://registry.npmjs.org/gemini 389ms (cache miss)
+619 silly packumentCache corgi:https://registry.npmjs.org/gemini set size:undefined disposed:false
+620 silly packumentCache corgi:https://registry.npmjs.org/gemini-coverage cache-miss
+621 info run wd@1.14.0 install { code: 0, signal: null }
+622 http fetch GET 200 https://registry.npmjs.org/gemini-coverage 269ms (cache miss)
+623 silly packumentCache corgi:https://registry.npmjs.org/gemini-coverage set size:undefined disposed:false
+624 silly packumentCache corgi:https://registry.npmjs.org/gemini-core cache-miss
+625 http fetch GET 200 https://registry.npmjs.org/gemini-core 249ms (cache miss)
+626 silly packumentCache corgi:https://registry.npmjs.org/gemini-core set size:undefined disposed:false
+627 silly packumentCache corgi:https://registry.npmjs.org/wd cache-miss
+628 http fetch GET 200 https://registry.npmjs.org/wd 294ms (cache miss)
+629 silly packumentCache corgi:https://registry.npmjs.org/wd set size:undefined disposed:false
+630 silly packumentCache corgi:https://registry.npmjs.org/css cache-miss
+631 silly packumentCache corgi:https://registry.npmjs.org/snapdragon cache-miss
+632 http fetch GET 200 https://registry.npmjs.org/css 259ms (cache miss)
+633 silly packumentCache corgi:https://registry.npmjs.org/css set size:undefined disposed:false
+634 http fetch GET 200 https://registry.npmjs.org/snapdragon 267ms (cache miss)
+635 silly packumentCache corgi:https://registry.npmjs.org/snapdragon set size:undefined disposed:false
+636 silly packumentCache corgi:https://registry.npmjs.org/crypto-browserify cache-miss
+637 http fetch GET 200 https://registry.npmjs.org/crypto-browserify 80ms (cache miss)
+638 silly packumentCache corgi:https://registry.npmjs.org/crypto-browserify set size:undefined disposed:false
+639 silly packumentCache corgi:https://registry.npmjs.org/glob-extra cache-miss
+640 http fetch GET 200 https://registry.npmjs.org/glob-extra 240ms (cache miss)
+641 silly packumentCache corgi:https://registry.npmjs.org/glob-extra set size:undefined disposed:false
+642 silly packumentCache corgi:https://registry.npmjs.org/browserify cache-miss
+643 http fetch GET 200 https://registry.npmjs.org/browserify 293ms (cache miss)
+644 silly packumentCache corgi:https://registry.npmjs.org/browserify set size:undefined disposed:false
+645 info run png-img@2.3.0 install { code: 1, signal: null }
+646 verbose stack Error: command failed
+646 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:22:22)
+646 verbose stack     at spawnWithShell (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:131:10)
+646 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:12:12)
+646 verbose stack     at runScriptPkg (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script-pkg.js:70:13)
+646 verbose stack     at runScript (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:8:12)
+646 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/rebuild.js:355:17
+646 verbose stack     at run (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:67:22)
+646 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:84:9
+646 verbose stack     at new Promise (<anonymous>)
+646 verbose stack     at callLimit (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:35:69)
+647 verbose pkgid png-img@2.3.0
+648 error code 1
+649 error path /data/data/com.termux/files/home/node_modules/png-img
+650 error command failed
+651 error command sh -c node-gyp rebuild
+652 error make: Entering directory '/data/data/com.termux/files/home/node_modules/png-img/build'
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/png.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngerror.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngget.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngmem.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngpread.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngread.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngrio.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngrtran.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngrutil.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngset.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngtest.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngtrans.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngwio.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngwrite.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngwtran.o
+652 error   CC(target) Release/obj.target/libpng/third_party/libpng/pngwutil.o
+652 error rm -f Release/obj.target/third_party/libpng/png.a Release/obj.target/third_party/libpng/png.a.ar-file-list; mkdir -p `dirname Release/obj.target/third_party/libpng/png.a`
+652 error ar crs Release/obj.target/third_party/libpng/png.a @Release/obj.target/third_party/libpng/png.a.ar-file-list
+652 error   COPY Release/png.a
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/adler32.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/compress.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/crc32.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/deflate.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/gzclose.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/gzlib.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/gzread.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/gzwrite.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/infback.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/inffast.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/inflate.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/inftrees.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/trees.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/uncompr.o
+652 error   CC(target) Release/obj.target/zlib/third_party/zlib/zutil.o
+652 error rm -f Release/obj.target/third_party/zlib/zlib.a Release/obj.target/third_party/zlib/zlib.a.ar-file-list; mkdir -p `dirname Release/obj.target/third_party/zlib/zlib.a`
+652 error ar crs Release/obj.target/third_party/zlib/zlib.a @Release/obj.target/third_party/zlib/zlib.a.ar-file-list
+652 error   COPY Release/zlib.a
+652 error   CXX(target) Release/obj.target/png_img/src/init.o
+652 error   CXX(target) Release/obj.target/png_img/src/PngImgAdapter.o
+652 error make: Leaving directory '/data/data/com.termux/files/home/node_modules/png-img/build'
+653 error gyp info it worked if it ends with ok
+653 error gyp info using node-gyp@13.0.0
+653 error gyp info using node@24.22.3 | android | arm64
+653 error gyp info find Python using Python version 3.14.10 found at "/data/data/com.termux/files/usr/bin/python3"
+653 error gyp info spawn /data/data/com.termux/files/usr/bin/python3
+653 error gyp info spawn args [
+653 error gyp info spawn args '/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+653 error gyp info spawn args 'binding.gyp',
+653 error gyp info spawn args '-f',
+653 error gyp info spawn args 'make',
+653 error gyp info spawn args '-I',
+653 error gyp info spawn args '/data/data/com.termux/files/home/node_modules/png-img/build/config.gypi',
+653 error gyp info spawn args '-I',
+653 error gyp info spawn args '/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+653 error gyp info spawn args '-I',
+653 error gyp info spawn args '/data/data/com.termux/files/usr/include/node/common.gypi',
+653 error gyp info spawn args '-Dlibrary=shared_library',
+653 error gyp info spawn args '-Dvisibility=default',
+653 error gyp info spawn args '-Dnode_root_dir=/data/data/com.termux/files/usr',
+653 error gyp info spawn args '-Dnode_gyp_dir=/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp',
+653 error gyp info spawn args '-Dnode_lib_file=/data/data/com.termux/files/usr/$(Configuration)/node.lib',
+653 error gyp info spawn args '-Dmodule_root_dir=/data/data/com.termux/files/home/node_modules/png-img',
+653 error gyp info spawn args '-Dnode_engine=v8',
+653 error gyp info spawn args '--depth=.',
+653 error gyp info spawn args '--no-parallel',
+653 error gyp info spawn args '--generator-output',
+653 error gyp info spawn args 'build',
+653 error gyp info spawn args '-Goutput_dir=.'
+653 error gyp info spawn args ]
+653 error gyp info spawn make
+653 error gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+653 error ../third_party/libpng/pngread.c:3396:33: warning: variable 'row' set but not used [-Wunused-but-set-variable]
+653 error  3396 |                png_bytep        row = png_voidcast(png_bytep,
+653 error       |                                 ^
+653 error 1 warning generated.
+653 error ../third_party/libpng/pngrutil.c:3353:19: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  3353 |                   png_isaligned(dp, png_uint_16) &&
+653 error       |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngpriv.h:525:23: note: expanded from macro 'png_isaligned'
+653 error   525 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+653 error       |                       ^~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngrutil.c:3354:19: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  3354 |                   png_isaligned(sp, png_uint_16) &&
+653 error       |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngpriv.h:525:23: note: expanded from macro 'png_isaligned'
+653 error   525 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+653 error       |                       ^~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngrutil.c:3361:23: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  3361 |                   if (png_isaligned(dp, png_uint_32) &&
+653 error       |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngpriv.h:525:23: note: expanded from macro 'png_isaligned'
+653 error   525 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+653 error       |                       ^~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngrutil.c:3362:22: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  3362 |                      png_isaligned(sp, png_uint_32) &&
+653 error       |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngpriv.h:525:23: note: expanded from macro 'png_isaligned'
+653 error   525 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+653 error       |                       ^~~~~~~~~~~~~~~
+653 error ../third_party/libpng/pngrutil.c:4411:33: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  4411 |         int extra = (int)((temp - (png_bytep)0) & 0x0f);
+653 error       |                                 ^ ~~~~~~~~~~~~
+653 error ../third_party/libpng/pngrutil.c:4415:29: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+653 error  4415 |         extra = (int)((temp - (png_bytep)0) & 0x0f);
+653 error       |                             ^ ~~~~~~~~~~~~
+653 error 6 warnings generated.
+653 error ../third_party/zlib/adler32.c:65:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    65 | uLong ZEXPORT adler32(adler, buf, len)
+653 error       |               ^
+653 error ../third_party/zlib/adler32.c:136:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   136 | local uLong adler32_combine_(adler1, adler2, len2)
+653 error       |             ^
+653 error ../third_party/zlib/adler32.c:165:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   165 | uLong ZEXPORT adler32_combine(adler1, adler2, len2)
+653 error       |               ^
+653 error ../third_party/zlib/adler32.c:173:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   173 | uLong ZEXPORT adler32_combine64(adler1, adler2, len2)
+653 error       |               ^
+653 error 4 warnings generated.
+653 error ../third_party/zlib/compress.c:22:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    22 | int ZEXPORT compress2 (dest, destLen, source, sourceLen, level)
+653 error       |             ^
+653 error ../third_party/zlib/compress.c:62:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    62 | int ZEXPORT compress (dest, destLen, source, sourceLen)
+653 error       |             ^
+653 error ../third_party/zlib/compress.c:75:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    75 | uLong ZEXPORT compressBound (sourceLen)
+653 error       |               ^
+653 error 3 warnings generated.
+653 error ../third_party/zlib/crc32.c:204:23: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   204 | unsigned long ZEXPORT crc32(crc, buf, len)
+653 error       |                       ^
+653 error ../third_party/zlib/crc32.c:247:21: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   247 | local unsigned long crc32_little(crc, buf, len)
+653 error       |                     ^
+653 error ../third_party/zlib/crc32.c:287:21: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   287 | local unsigned long crc32_big(crc, buf, len)
+653 error       |                     ^
+653 error ../third_party/zlib/crc32.c:327:21: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   327 | local unsigned long gf2_matrix_times(mat, vec)
+653 error       |                     ^
+653 error ../third_party/zlib/crc32.c:344:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   344 | local void gf2_matrix_square(square, mat)
+653 error       |            ^
+653 error ../third_party/zlib/crc32.c:355:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   355 | local uLong crc32_combine_(crc1, crc2, len2)
+653 error       |             ^
+653 error ../third_party/zlib/crc32.c:411:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   411 | uLong ZEXPORT crc32_combine(crc1, crc2, len2)
+653 error       |               ^
+653 error ../third_party/zlib/crc32.c:419:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   419 | uLong ZEXPORT crc32_combine64(crc1, crc2, len2)
+653 error       |               ^
+653 error 8 warnings generated.
+653 error ../third_party/zlib/deflate.c:201:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   201 | int ZEXPORT deflateInit_(strm, level, version, stream_size)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:213:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   213 | int ZEXPORT deflateInit2_(strm, level, method, windowBits, memLevel, strategy,
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:323:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   323 | int ZEXPORT deflateSetDictionary (strm, dictionary, dictLength)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:392:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   392 | int ZEXPORT deflateResetKeep (strm)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:427:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   427 | int ZEXPORT deflateReset (strm)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:439:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   439 | int ZEXPORT deflateSetHeader (strm, head)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:450:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   450 | int ZEXPORT deflatePending (strm, pending, bits)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:464:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   464 | int ZEXPORT deflatePrime (strm, bits, value)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:490:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   490 | int ZEXPORT deflateParams(strm, level, strategy)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:531:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   531 | int ZEXPORT deflateTune(strm, good_length, max_lazy, nice_length, max_chain)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:566:15: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   566 | uLong ZEXPORT deflateBound(strm, sourceLen)
+653 error       |               ^
+653 error ../third_party/zlib/deflate.c:628:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   628 | local void putShortMSB (s, b)
+653 error       |            ^
+653 error ../third_party/zlib/deflate.c:642:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   642 | local void flush_pending(strm)
+653 error       |            ^
+653 error ../third_party/zlib/deflate.c:665:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   665 | int ZEXPORT deflate (strm, flush)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:979:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   979 | int ZEXPORT deflateEnd (strm)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:1014:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1014 | int ZEXPORT deflateCopy (dest, source)
+653 error       |             ^
+653 error ../third_party/zlib/deflate.c:1076:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1076 | local int read_buf(strm, buf, size)
+653 error       |           ^
+653 error ../third_party/zlib/deflate.c:1106:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1106 | local void lm_init (s)
+653 error       |            ^
+653 error ../third_party/zlib/deflate.c:1148:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1148 | local uInt longest_match(s, cur_match)
+653 error       |            ^
+653 error ../third_party/zlib/deflate.c:1390:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1390 | local void fill_window(s)
+653 error       |            ^
+653 error ../third_party/zlib/deflate.c:1564:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1564 | local block_state deflate_stored(s, flush)
+653 error       |                   ^
+653 error ../third_party/zlib/deflate.c:1628:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1628 | local block_state deflate_fast(s, flush)
+653 error       |                   ^
+653 error ../third_party/zlib/deflate.c:1730:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1730 | local block_state deflate_slow(s, flush)
+653 error       |                   ^
+653 error ../third_party/zlib/deflate.c:1861:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1861 | local block_state deflate_rle(s, flush)
+653 error       |                   ^
+653 error ../third_party/zlib/deflate.c:1934:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1934 | local block_state deflate_huff(s, flush)
+653 error       |                   ^
+653 error 25 warnings generated.
+653 error ../third_party/zlib/gzclose.c:11:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    11 | int ZEXPORT gzclose(file)
+653 error       |             ^
+653 error 1 warning generated.
+653 error ../third_party/zlib/gzlib.c:75:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    75 | local void gz_reset(state)
+653 error       |            ^
+653 error ../third_party/zlib/gzlib.c:91:14: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    91 | local gzFile gz_open(path, fd, mode)
+653 error       |              ^
+653 error ../third_party/zlib/gzlib.c:268:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   268 | gzFile ZEXPORT gzopen(path, mode)
+653 error       |                ^
+653 error ../third_party/zlib/gzlib.c:276:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   276 | gzFile ZEXPORT gzopen64(path, mode)
+653 error       |                ^
+653 error ../third_party/zlib/gzlib.c:284:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   284 | gzFile ZEXPORT gzdopen(fd, mode)
+653 error       |                ^
+653 error ../third_party/zlib/gzlib.c:314:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   314 | int ZEXPORT gzbuffer(file, size)
+653 error       |             ^
+653 error ../third_party/zlib/gzlib.c:339:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   339 | int ZEXPORT gzrewind(file)
+653 error       |             ^
+653 error ../third_party/zlib/gzlib.c:362:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   362 | z_off64_t ZEXPORT gzseek64(file, offset, whence)
+653 error       |                   ^
+653 error ../third_party/zlib/gzlib.c:439:17: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   439 | z_off_t ZEXPORT gzseek(file, offset, whence)
+653 error       |                 ^
+653 error ../third_party/zlib/gzlib.c:451:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   451 | z_off64_t ZEXPORT gztell64(file)
+653 error       |                   ^
+653 error ../third_party/zlib/gzlib.c:468:17: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   468 | z_off_t ZEXPORT gztell(file)
+653 error       |                 ^
+653 error ../third_party/zlib/gzlib.c:478:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   478 | z_off64_t ZEXPORT gzoffset64(file)
+653 error       |                   ^
+653 error ../third_party/zlib/gzlib.c:501:17: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   501 | z_off_t ZEXPORT gzoffset(file)
+653 error       |                 ^
+653 error ../third_party/zlib/gzlib.c:511:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   511 | int ZEXPORT gzeof(file)
+653 error       |             ^
+653 error ../third_party/zlib/gzlib.c:528:22: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   528 | const char * ZEXPORT gzerror(file, errnum)
+653 error       |                      ^
+653 error ../third_party/zlib/gzlib.c:549:14: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   549 | void ZEXPORT gzclearerr(file)
+653 error       |              ^
+653 error ../third_party/zlib/gzlib.c:575:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   575 | void ZLIB_INTERNAL gz_error(state, err, msg)
+653 error       |                    ^
+653 error 17 warnings generated.
+653 error ../third_party/zlib/gzread.c:20:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    20 | local int gz_load(state, buf, len, have)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:51:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    51 | local int gz_avail(state)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:86:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    86 | local int gz_look(state)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:172:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   172 | local int gz_decomp(state)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:226:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   226 | local int gz_fetch(state)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:256:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   256 | local int gz_skip(state, len)
+653 error       |           ^
+653 error ../third_party/zlib/gzread.c:288:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   288 | int ZEXPORT gzread(file, buf, len)
+653 error       |             ^
+653 error ../third_party/zlib/gzread.c:387:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   387 | int ZEXPORT gzgetc(file)
+653 error       |             ^
+653 error ../third_party/zlib/gzread.c:416:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   416 | int ZEXPORT gzgetc_(file)
+653 error       |             ^
+653 error ../third_party/zlib/gzread.c:423:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   423 | int ZEXPORT gzungetc(c, file)
+653 error       |             ^
+653 error ../third_party/zlib/gzread.c:483:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   483 | char * ZEXPORT gzgets(file, buf, len)
+653 error       |                ^
+653 error ../third_party/zlib/gzread.c:547:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   547 | int ZEXPORT gzdirect(file)
+653 error       |             ^
+653 error ../third_party/zlib/gzread.c:567:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   567 | int ZEXPORT gzclose_r(file)
+653 error       |             ^
+653 error 13 warnings generated.
+653 error ../third_party/zlib/gzwrite.c:15:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    15 | local int gz_init(state)
+653 error       |           ^
+653 error ../third_party/zlib/gzwrite.c:70:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    70 | local int gz_comp(state, flush)
+653 error       |           ^
+653 error ../third_party/zlib/gzwrite.c:133:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   133 | local int gz_zero(state, len)
+653 error       |           ^
+653 error ../third_party/zlib/gzwrite.c:165:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   165 | int ZEXPORT gzwrite(file, buf, len)
+653 error       |             ^
+653 error ../third_party/zlib/gzwrite.c:245:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   245 | int ZEXPORT gzputc(file, c)
+653 error       |             ^
+653 error ../third_party/zlib/gzwrite.c:293:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   293 | int ZEXPORT gzputs(file, str)
+653 error       |             ^
+653 error ../third_party/zlib/gzwrite.c:465:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   465 | int ZEXPORT gzflush(file, flush)
+653 error       |             ^
+653 error ../third_party/zlib/gzwrite.c:497:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   497 | int ZEXPORT gzsetparams(file, level, strategy)
+653 error       |             ^
+653 error ../third_party/zlib/gzwrite.c:539:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   539 | int ZEXPORT gzclose_w(file)
+653 error       |             ^
+653 error 9 warnings generated.
+653 error ../third_party/zlib/infback.c:28:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    28 | int ZEXPORT inflateBackInit_(strm, windowBits, window, version, stream_size)
+653 error       |             ^
+653 error ../third_party/zlib/infback.c:82:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    82 | local void fixedtables(state)
+653 error       |            ^
+653 error ../third_party/zlib/infback.c:250:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   250 | int ZEXPORT inflateBack(strm, in, in_desc, out, out_desc)
+653 error       |             ^
+653 error ../third_party/zlib/infback.c:631:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   631 | int ZEXPORT inflateBackEnd(strm)
+653 error       |             ^
+653 error 4 warnings generated.
+653 error ../third_party/zlib/inffast.c:67:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    67 | void ZLIB_INTERNAL inflate_fast(strm, start)
+653 error       |                    ^
+653 error 1 warning generated.
+653 error ../third_party/zlib/inflate.c:104:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   104 | int ZEXPORT inflateResetKeep(strm)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:129:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   129 | int ZEXPORT inflateReset(strm)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:142:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   142 | int ZEXPORT inflateReset2(strm, windowBits)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:180:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   180 | int ZEXPORT inflateInit2_(strm, windowBits, version, stream_size)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:222:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   222 | int ZEXPORT inflateInit_(strm, version, stream_size)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:230:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   230 | int ZEXPORT inflatePrime(strm, bits, value)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:261:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   261 | local void fixedtables(state)
+653 error       |            ^
+653 error ../third_party/zlib/inflate.c:379:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   379 | local int updatewindow(strm, end, copy)
+653 error       |           ^
+653 error ../third_party/zlib/inflate.c:605:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   605 | int ZEXPORT inflate(strm, flush)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1254:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1254 | int ZEXPORT inflateEnd(strm)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1268:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1268 | int ZEXPORT inflateGetDictionary(strm, dictionary, dictLength)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1291:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1291 | int ZEXPORT inflateSetDictionary(strm, dictionary, dictLength)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1326:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1326 | int ZEXPORT inflateGetHeader(strm, head)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1354:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1354 | local unsigned syncsearch(have, buf, len)
+653 error       |                ^
+653 error ../third_party/zlib/inflate.c:1377:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1377 | int ZEXPORT inflateSync(strm)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1428:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1428 | int ZEXPORT inflateSyncPoint(strm)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1438:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1438 | int ZEXPORT inflateCopy(dest, source)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1485:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1485 | int ZEXPORT inflateUndermine(strm, subvert)
+653 error       |             ^
+653 error ../third_party/zlib/inflate.c:1502:14: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1502 | long ZEXPORT inflateMark(strm)
+653 error       |              ^
+653 error ../third_party/zlib/inflate.c:1507:61: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+653 error  1507 |     if (strm == Z_NULL || strm->state == Z_NULL) return -1L << 16;
+653 error       |                                                         ~~~ ^
+653 error 20 warnings generated.
+653 error ../third_party/zlib/inftrees.c:32:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    32 | int ZLIB_INTERNAL inflate_table(type, lens, codes, table, bits, work)
+653 error       |                   ^
+653 error 1 warning generated.
+653 error ../third_party/zlib/trees.c:381:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   381 | void ZLIB_INTERNAL _tr_init(s)
+653 error       |                    ^
+653 error ../third_party/zlib/trees.c:409:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   409 | local void init_block(s)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:453:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   453 | local void pqdownheap(s, tree, k)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:488:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   488 | local void gen_bitlen(s, desc)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:575:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   575 | local void gen_codes (tree, max_code, bl_count)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:617:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   617 | local void build_tree(s, desc)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:705:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   705 | local void scan_tree (s, tree, max_code)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:750:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   750 | local void send_tree (s, tree, max_code)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:801:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   801 | local int build_bl_tree(s)
+653 error       |           ^
+653 error ../third_party/zlib/trees.c:836:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   836 | local void send_all_trees(s, lcodes, dcodes, blcodes)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:865:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   865 | void ZLIB_INTERNAL _tr_stored_block(s, buf, stored_len, last)
+653 error       |                    ^
+653 error ../third_party/zlib/trees.c:882:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   882 | void ZLIB_INTERNAL _tr_flush_bits(s)
+653 error       |                    ^
+653 error ../third_party/zlib/trees.c:892:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   892 | void ZLIB_INTERNAL _tr_align(s)
+653 error       |                    ^
+653 error ../third_party/zlib/trees.c:907:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   907 | void ZLIB_INTERNAL _tr_flush_block(s, buf, stored_len, last)
+653 error       |                    ^
+653 error ../third_party/zlib/trees.c:1010:19: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1010 | int ZLIB_INTERNAL _tr_tally (s, dist, lc)
+653 error       |                   ^
+653 error ../third_party/zlib/trees.c:1060:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1060 | local void compress_block(s, ltree, dtree)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:1120:11: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1120 | local int detect_data_type(s)
+653 error       |           ^
+653 error ../third_party/zlib/trees.c:1154:16: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1154 | local unsigned bi_reverse(code, len)
+653 error       |                ^
+653 error ../third_party/zlib/trees.c:1169:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1169 | local void bi_flush(s)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:1186:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1186 | local void bi_windup(s)
+653 error       |            ^
+653 error ../third_party/zlib/trees.c:1205:12: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error  1205 | local void copy_block(s, buf, len, header)
+653 error       |            ^
+653 error 21 warnings generated.
+653 error ../third_party/zlib/uncompr.c:24:13: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error    24 | int ZEXPORT uncompress (dest, destLen, source, sourceLen)
+653 error       |             ^
+653 error 1 warning generated.
+653 error ../third_party/zlib/zutil.c:136:22: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   136 | const char * ZEXPORT zError(err)
+653 error       |                      ^
+653 error ../third_party/zlib/zutil.c:304:22: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   304 | voidpf ZLIB_INTERNAL zcalloc (opaque, items, size)
+653 error       |                      ^
+653 error ../third_party/zlib/zutil.c:314:20: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+653 error   314 | void ZLIB_INTERNAL zcfree (opaque, ptr)
+653 error       |                    ^
+653 error 3 warnings generated.
+653 error ../src/init.cc:17:1: warning: cast from 'void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)' (aka 'void (*)(Local<v8::Object>)') to 'node::addon_register_func' (aka 'void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void *)') converts to incompatible function type [-Wcast-function-type-mismatch]
+653 error    17 | NODE_MODULE(png_img, InitAll)
+653 error       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/node.h:1416:3: note: expanded from macro 'NODE_MODULE'
+653 error  1416 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+653 error       |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/node.h:1382:7: note: expanded from macro 'NODE_MODULE_X'
+653 error  1382 |       (node::addon_register_func) (regfunc),                          \
+653 error       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error 1 warning generated.
+653 error ../src/PngImgAdapter.cc:20:5: error: no matching function for call to 'SetAccessor'
+653 error    20 |     SetAccessor(tpl->InstanceTemplate(), Nan::New<String>("width").ToLocalChecked(), PngImgAdapter::Width);
+653 error       |     ^~~~~~~~~~~
+653 error ../../nan/nan.h:2863:13: note: candidate function not viable: no known conversion from 'Nan::NAN_PROPERTY_GETTER_RETURN_TYPE (v8::Local<v8::String>, Nan::NAN_PROPERTY_GETTER_ARGS_TYPE)' (aka 'v8::Intercepted (Local<v8::String>, const PropertyCallbackInfo<v8::Value> &)') to 'GetterCallback' (aka 'void (*)(v8::Local<v8::String>, const PropertyCallbackInfo<v8::Value> &)') for 3rd argument
+653 error  2863 | inline void SetAccessor(
+653 error       |             ^
+653 error  2864 |     v8::Local<v8::ObjectTemplate> tpl
+653 error  2865 |   , v8::Local<v8::String> name
+653 error  2866 |   , GetterCallback getter
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~
+653 error ../../nan/nan.h:2916:13: note: candidate function not viable: no known conversion from 'Local<ObjectTemplate>' to 'Local<v8::Object>' for 1st argument
+653 error  2916 | inline bool SetAccessor(
+653 error       |             ^
+653 error  2917 |     v8::Local<v8::Object> obj
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../../nan/nan.h:2806:28: note: candidate function not viable: requires 8 arguments, but 3 were provided
+653 error  2806 | NAN_DEPRECATED inline void SetAccessor(
+653 error       |                            ^
+653 error  2807 |     v8::Local<v8::ObjectTemplate> tpl
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2808 |   , v8::Local<v8::String> name
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2809 |   , GetterCallback getter
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2810 |   , SetterCallback setter
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2811 |   , v8::Local<v8::Value> data
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2812 |   , v8::AccessControl settings
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2813 |   , v8::PropertyAttribute attribute
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2814 |   , imp::Sig signature) {
+653 error       |   ~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:21:5: error: no matching function for call to 'SetAccessor'
+653 error    21 |     SetAccessor(tpl->InstanceTemplate(), Nan::New<String>("height").ToLocalChecked(), PngImgAdapter::Height);
+653 error       |     ^~~~~~~~~~~
+653 error ../../nan/nan.h:2863:13: note: candidate function not viable: no known conversion from 'Nan::NAN_PROPERTY_GETTER_RETURN_TYPE (v8::Local<v8::String>, Nan::NAN_PROPERTY_GETTER_ARGS_TYPE)' (aka 'v8::Intercepted (Local<v8::String>, const PropertyCallbackInfo<v8::Value> &)') to 'GetterCallback' (aka 'void (*)(v8::Local<v8::String>, const PropertyCallbackInfo<v8::Value> &)') for 3rd argument
+653 error  2863 | inline void SetAccessor(
+653 error       |             ^
+653 error  2864 |     v8::Local<v8::ObjectTemplate> tpl
+653 error  2865 |   , v8::Local<v8::String> name
+653 error  2866 |   , GetterCallback getter
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~
+653 error ../../nan/nan.h:2916:13: note: candidate function not viable: no known conversion from 'Local<ObjectTemplate>' to 'Local<v8::Object>' for 1st argument
+653 error  2916 | inline bool SetAccessor(
+653 error       |             ^
+653 error  2917 |     v8::Local<v8::Object> obj
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../../nan/nan.h:2806:28: note: candidate function not viable: requires 8 arguments, but 3 were provided
+653 error  2806 | NAN_DEPRECATED inline void SetAccessor(
+653 error       |                            ^
+653 error  2807 |     v8::Local<v8::ObjectTemplate> tpl
+653 error       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2808 |   , v8::Local<v8::String> name
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2809 |   , GetterCallback getter
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2810 |   , SetterCallback setter
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2811 |   , v8::Local<v8::Value> data
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2812 |   , v8::AccessControl settings
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2813 |   , v8::PropertyAttribute attribute
+653 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error  2814 |   , imp::Sig signature) {
+653 error       |   ~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:93:10: error: no matching member function for call to 'Set'
+653 error    93 |     obj->Set(Nan::New<String>("r").ToLocalChecked(), Nan::New<Number>(pPxl->r));
+653 error       |     ~~~~~^~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:239:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   239 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   240 |                                         Local<Value> key, Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:245:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   245 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   246 |                                         Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:241:37: note: candidate function not viable: requires 4 arguments, but 2 were provided
+653 error   241 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   242 |                                         Local<Value> key, Local<Value> value,
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   243 |                                         MaybeLocal<Object> receiver);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:94:10: error: no matching member function for call to 'Set'
+653 error    94 |     obj->Set(Nan::New<String>("g").ToLocalChecked(), Nan::New<Number>(pPxl->g));
+653 error       |     ~~~~~^~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:239:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   239 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   240 |                                         Local<Value> key, Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:245:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   245 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   246 |                                         Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:241:37: note: candidate function not viable: requires 4 arguments, but 2 were provided
+653 error   241 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   242 |                                         Local<Value> key, Local<Value> value,
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   243 |                                         MaybeLocal<Object> receiver);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:95:10: error: no matching member function for call to 'Set'
+653 error    95 |     obj->Set(Nan::New<String>("b").ToLocalChecked(), Nan::New<Number>(pPxl->b));
+653 error       |     ~~~~~^~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:239:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   239 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   240 |                                         Local<Value> key, Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:245:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   245 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   246 |                                         Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:241:37: note: candidate function not viable: requires 4 arguments, but 2 were provided
+653 error   241 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   242 |                                         Local<Value> key, Local<Value> value,
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   243 |                                         MaybeLocal<Object> receiver);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:96:10: error: no matching member function for call to 'Set'
+653 error    96 |     obj->Set(Nan::New<String>("a").ToLocalChecked(), Nan::New<Number>(pPxl->a));
+653 error       |     ~~~~~^~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:239:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   239 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   240 |                                         Local<Value> key, Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:245:37: note: candidate function not viable: requires 3 arguments, but 2 were provided
+653 error   245 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   246 |                                         Local<Value> value);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:241:37: note: candidate function not viable: requires 4 arguments, but 2 were provided
+653 error   241 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+653 error       |                                     ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   242 |                                         Local<Value> key, Local<Value> value,
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error   243 |                                         MaybeLocal<Object> receiver);
+653 error       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error ../src/PngImgAdapter.cc:104:34: error: no matching member function for call to 'Get'
+653 error   104 |         Nan::Utf8String val(obj->Get(Nan::New<String>(key.c_str()).ToLocalChecked()));
+653 error       |                             ~~~~~^~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:297:43: note: candidate function not viable: requires 2 arguments, but 1 was provided
+653 error   297 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+653 error       |                                           ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   298 |                                               Local<Value> key);
+653 error       |                                               ~~~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:303:43: note: candidate function not viable: requires 2 arguments, but 1 was provided
+653 error   303 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+653 error       |                                           ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   304 |                                               uint32_t index);
+653 error       |                                               ~~~~~~~~~~~~~~
+653 error /data/data/com.termux/files/usr/include/node/v8-object.h:299:43: note: candidate function not viable: requires 3 arguments, but 1 was provided
+653 error   299 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+653 error       |                                           ^   ~~~~~~~~~~~~~~~~~~~~~~~
+653 error   300 |                                               Local<Value> key,
+653 error       |                                               ~~~~~~~~~~~~~~~~~
+653 error   301 |                                               MaybeLocal<Object> receiver);
+653 error       |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+653 error 7 errors generated.
+653 error make: *** [png_img.target.mk:114: Release/obj.target/png_img/src/PngImgAdapter.o] Error 1
+653 error gyp ERR! build error 
+653 error gyp ERR! stack Error: `make` failed with exit code: 2
+653 error gyp ERR! stack at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:219:23)
+653 error gyp ERR! System Linux 5.4.274-qgki-g07a0d7446d58
+653 error gyp ERR! command "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+653 error gyp ERR! cwd /data/data/com.termux/files/home/node_modules/png-img
+653 error gyp ERR! node -v v24.22.3
+653 error gyp ERR! node-gyp -v v13.0.0
+653 error gyp ERR! $npm_package_name png-img
+653 error gyp ERR! $npm_package_version 2.3.0
+653 error gyp ERR! not ok
+654 silly unfinished npm timer reify 1794536996545
+655 silly unfinished npm timer reify:build 1794537002315
+656 silly unfinished npm timer build 1794537002317
+657 silly unfinished npm timer build:deps 1794537002318
+658 silly unfinished npm timer build:run:install 1794537002401
+659 silly unfinished npm timer build:run:install:node_modules/png-img 1794537002402
+660 verbose cwd /data/data/com.termux/files/home/Best_editor_4-in_one
+661 verbose os Linux 5.4.274-qgki-g07a0d7446d58
+662 verbose node v24.22.3
+663 verbose npm  v12.2.2
+664 verbose exit 1
+665 verbose code 1
+666 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-11-13T02_29_55_317Z-debug-0.log

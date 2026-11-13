@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gemini": "^7.5.2"
+  },
+  "allowScripts": {
+    "png-img@2.3.0": true,
+    "wd@1.14.0": true
+  }
+}

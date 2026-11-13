@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "/data/data/com.termux/files/home": "home",
+    "/data/data/com.termux/files/home/diablo_character_editor_android_build": "diablo-character-editor-android-build",
+    "/data/data/com.termux/files/usr/bin": "bin",
+    "/storage/emulated/0/Download": "download",
+    "/storage/emulated/0/Download/gemini-skills-main": "gemini-skills-main",
+    "/storage/emulated/0/Download/gemini-skills-main/skills": "skills",
+    "/data/data/com.termux/files/home/Best_editor_4-in_one": "best-editor-4-in-one"
+  }
+}
